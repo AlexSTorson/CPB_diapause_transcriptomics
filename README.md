@@ -1,6 +1,6 @@
 # Sex-Specific Transcriptomics of Diapause in Colorado Potato Beetle
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17834574.svg)](https://doi.org/10.5281/zenodo.17834574)
 
 ## Overview
 
