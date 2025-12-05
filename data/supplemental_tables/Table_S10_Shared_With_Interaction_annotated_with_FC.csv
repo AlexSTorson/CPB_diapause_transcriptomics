@@ -1,0 +1,229 @@
+"qry_transcript_id","ref_gene_id","qry_gene_id","ref_gene_name","gene_annotation","ref_transcript_id","ref_transcript_name","class_code","male_log2FoldChange","female_log2FoldChange","interaction_log2FoldChange"
+"TU15507","LOC111505318","G8754","activin receptor type-2A","refseq","XM_023160097.1","activin receptor type-2A, transcript variant X1","j",6.85715612476072,-14.7364961756987,-27.5935907674503
+"TU41856","LOC111515557","G24460","uncharacterized LOC111515557","refseq","XM_023171775.1","uncharacterized LOC111515557","j",5.32988448294306,-15.6946884164821,-27.5935565173944
+"TU23053","LOC111508210","G12974","cytosolic beta-glucosidase-like","refseq","XM_023163648.1","cytosolic beta-glucosidase-like","=",-6.40521518999011,-13.2902948268495,-6.80649192150497
+"TU26908","LOC111509688","G15184","broad-complex core protein","refseq","XM_023165479.1","broad-complex core protein, transcript variant X10","n",7.43937227765864,-3.28314271296395,-12.022421983264
+"TU28528","LOC111510283","G16117","uncharacterized LOC111510283","refseq","XM_023166190.1","uncharacterized LOC111510283","k",15.8067547364865,-5.25627980735703,-27.5644312193581
+"TU12525","LOC111504106","G7006","glucose dehydrogenase [FAD","refseq","XM_023158598.1","glucose dehydrogenase [FAD, quinone]-like","=",-7.30594699953197,-1.19565347318225,5.61743781313424
+"TU12529","LOC111504107","G7009","proton-coupled amino acid transporter-like protein CG1139","refseq","XM_023158599.1","proton-coupled amino acid transporter-like protein CG1139","=",-5.80688064530247,-9.68263364275445,-1.89595371508214
+"TU24046","LOC111508595","G13541","mannosyl-oligosaccharide glucosidase","refseq","XM_023164155.1","mannosyl-oligosaccharide glucosidase","j",9.76791987024555,-12.7036717991184,-27.594007378815
+"TU24042","LOC111508595","G13541","mannosyl-oligosaccharide glucosidase","refseq","XM_023164155.1","mannosyl-oligosaccharide glucosidase","j",11.6372245852816,-15.2361208832046,-28.2777259788833
+"TU38036","LOC111513990","G21944","uncharacterized LOC111513990","refseq","XM_023170216.1","uncharacterized LOC111513990","=",-9.78862479733859,-17.5041674678041,-4.65504387903409
+"TU14282","LOC111504812","G8028","uncharacterized LOC111504812","refseq","XM_023159514.1","uncharacterized LOC111504812","=",0.779868567940477,-0.525381556237346,-1.26696076267818
+"TU14828","LOC111505031","G8344","uncharacterized LOC111505031","refseq","XM_023159773.1","uncharacterized LOC111505031","j",1.85163470752451,-3.59474085415218,-11.8046383598884
+"TU16462","LOC111505674","G9267","putative ankyrin repeat protein RF_0381","refseq","XM_023160524.1","putative ankyrin repeat protein RF_0381","j",8.14977052726905,-13.8911582453612,-27.593829053721
+"TU11898",NA,"G6643","* Mariner Mos1 transposase","novel","EGI63032","Mariner Mos1 transposase","u",11.3998806169501,-11.2557949075603,-27.5934826508808
+"TU25661","LOC111509206","G14448","mediator of DNA damage checkpoint protein 1-like","refseq","XM_023164907.1","mediator of DNA damage checkpoint protein 1-like","j",12.4515492191643,-16.4114022137312,-28.916690143873
+"TU11467",NA,"G6401","* guanine nucleotide-binding protein G(o) subunit alpha","novel","XP_023019555","guanine nucleotide-binding protein G(o) subunit alpha","u",9.51184112905976,-12.8858336584404,-27.5913046449586
+"TU22002","LOC111507805","G12361","protein enhancer of sevenless 2B","refseq","XM_023163165.1","protein enhancer of sevenless 2B","j",0.642313718681634,-0.438309686719735,-1.0308981914565
+"TU19582","LOC111506848","G10973","rho guanine nucleotide exchange factor 18","refseq","XM_023162061.1","rho guanine nucleotide exchange factor 18","j",9.42789252574818,-12.9697447826832,-27.594004271262
+"TU34174","LOC111512524","G19538","venom carboxylesterase-6-like","refseq","XM_023168662.1","venom carboxylesterase-6-like","j",8.62970895164545,1.18298601288045,-6.7240685729058
+"TU9600",NA,"G5366","* ---NA---","novel",NA,"---NA---","u",5.39975920535304,-15.595096187019,-27.581029085839
+"TU22124","LOC111507848","G12433","zinc finger protein 385A-like","refseq","XM_023163217.1","zinc finger protein 385A-like","=",-5.80533075650472,-1.07166921055056,2.34027006898627
+"TU5045","LOC111517664","G2808","dihydropyrimidinase","refseq","XM_023173870.1","dihydropyrimidinase","j",9.31890173920824,-13.0520550133179,-27.5938735684463
+"TU11375","LOC111503645","G6354","serine/threonine-protein kinase hippo-like","refseq","XM_023157998.1","serine/threonine-protein kinase hippo-like","j",11.6061424484138,-17.3646511932604,-29.0462431386244
+"TU28038","LOC111510103","G15829","parapinopsin-like","refseq","XM_023165963.1","parapinopsin-like, transcript variant X2","=",13.1252417135783,-14.3519183077695,-28.2925261167562
+"TU17103","LOC111505927","G9649","cathepsin B-like","refseq","XM_023160835.1","cathepsin B-like","=",-11.4594128237608,-6.55982468327078,1.46081759983896
+"TU12022","LOC111503894","G6721","heparan-sulfate 6-O-sulfotransferase 2","refseq","XM_023158321.1","heparan-sulfate 6-O-sulfotransferase 2","j",10.2454836573496,-12.3102620828842,-27.5938062937046
+"TU15087",NA,"G8506","* uncharacterized protein LOC111508887 ","novel","XP_023020285","uncharacterized protein LOC111508887 isoform X1","u",-11.186822331625,11.8701087891031,27.6421126275654
+"TU13038","LOC111504317","G7334","uncharacterized LOC111504317","refseq","XM_023158836.1","uncharacterized LOC111504317, transcript variant X2","=",3.31634584943001,-1.98246041454003,-9.74431610308274
+"TU6887","LOC111501862","G3807","protein SON","refseq","XR_002721659.1","protein SON, transcript variant X2","=",-1.23131803159352,1.06319140298578,2.51270805109667
+"TU36747","LOC111513499","G21120","trafficking kinesin-binding protein milt-like","refseq","XM_023169715.1","trafficking kinesin-binding protein milt-like","j",-7.92036304010442,14.3055894287498,27.6424928914456
+"TU29894","LOC111510852","G16934","polygalacturonase-like","refseq","XM_023166806.1","polygalacturonase-like","=",-1.56700263162145,-7.46963767658092,-3.23317200633042
+"TU42011","LOC111515625","G24560","dynein assembly factor 5","refseq","XM_023171841.1","dynein assembly factor 5, axonemal","k",14.1499969632071,-13.9402491864902,-28.4271801844847
+"TU37404","LOC111513745","G21539","equilibrative nucleoside transporter 3-like","refseq","XM_023169969.1","equilibrative nucleoside transporter 3-like","k",-5.01049906807886,-1.08303533818077,1.08698259208322
+"TU3396","LOC111513968","G1844","protein artichoke-like","refseq","XM_023170197.1","protein artichoke-like","n",6.50780908882152,-14.9592380992989,-27.5940512988789
+"TU8762","LOC111502646","G4904","zinc finger protein 32-like","refseq","XM_023156771.1","zinc finger protein 32-like","j",-12.4215948020411,15.7378120338416,28.6102085903859
+"TU44377",NA,"G26284","* uncharacterized protein LOC114348543, partial","novel","XP_028154893","uncharacterized protein LOC114348543, partial","u",-3.45218290330569,-9.64013705952877,-3.34573143697477
+"TU44908",NA,"G26690","* ---NA---","novel",NA,"---NA---","u",-11.9179010887285,11.1082591815024,27.635722041299
+"TU31368","LOC111511438","G17820","uncharacterized LOC111511438","refseq","XM_023167451.1","uncharacterized LOC111511438","j",6.13758876446042,-15.1858296929468,-27.5929882326155
+"TU2896","LOC111511365","G1557","WD repeat-containing protein 47","refseq","XM_023167385.1","WD repeat-containing protein 47, transcript variant X2","=",1.11420349560141,2.86824254804875,0.848084132432723
+"TU43973","LOC111516462","G25984","mitochondrial basic amino acids transporter-like","refseq","XM_023172619.1","mitochondrial basic amino acids transporter-like","j",-1.12908157988066,-3.42532389091899,-1.26695189495469
+"TU44689","LOC111516772","G26521","molybdenum cofactor biosynthesis protein 1-like","refseq","XM_023172887.1","molybdenum cofactor biosynthesis protein 1-like, transcript variant X3","=",1.28804188765888,-0.875799393178757,-2.25726970038227
+"TU1994","LOC111507157","G1067","39S ribosomal protein L2","refseq","XM_023162425.1","39S ribosomal protein L2, mitochondrial","=",-0.823950001398458,-0.296821491755339,0.472564917324738
+"TU15696","LOC111505393","G8851","uncharacterized LOC111505393","refseq","XM_023160186.1","uncharacterized LOC111505393","=",2.08833910823398,-2.31924308198924,-9.66694732416781
+"TU9528","LOC111502923","G5326","zinc finger protein OZF-like","refseq","XM_023157107.1","zinc finger protein OZF-like","j",7.66114830301861,-14.2078268652629,-27.5919327836445
+"TU20463","LOC111507204","G11474","uncharacterized LOC111507204","refseq","XM_023162490.1","uncharacterized LOC111507204","j",-2.9995882204384,-14.0604971185427,-9.11489067304726
+"TU34798","LOC111512756","G19923","cathepsin L-like proteinase","refseq","XM_023168905.1","cathepsin L-like proteinase","j",-16.0613353050904,-32.1302003687571,-14.4207209227
+"TU26868","LOC111509683","G15158","protein sickie-like","refseq","XM_023165464.1","protein sickie-like","j",5.20935710630288,-15.7722185235597,-27.5938404946878
+"TU17352","LOC111506029","G9787","probable methyltransferase-like protein 15 homolog","refseq","XM_023160954.1","probable methyltransferase-like protein 15 homolog, transcript variant X1","j",5.24167792339139,-15.7424802012238,-27.5917199951442
+"TU3728","LOC111515508","G2033","putative serine protease K12H4.7","refseq","XM_023171734.1","putative serine protease K12H4.7","=",-5.89355864265805,-9.70377570960723,-1.10413386439211
+"TU2139","LOC111507769","G1159","E3 ubiquitin-protein ligase HECW2","refseq","XM_023163149.1","E3 ubiquitin-protein ligase HECW2, transcript variant X5","=",1.22735429187591,4.65879433570188,1.09422279580621
+"TU45522",NA,"G27159","* laminin subunit alpha-1-like ","novel","KAG5890393","laminin subunit alpha-1-like isoform X1","u",9.22451916784461,-13.1158236571099,-27.5927755335075
+"TU18851","LOC111506551","G10584","nose resistant to fluoxetine protein 6-like","refseq","XM_023161658.1","nose resistant to fluoxetine protein 6-like, transcript variant X2","o",13.5633107199839,-8.76842032890785,-27.593244272099
+"TU10297","LOC111503244","G5761","uncharacterized LOC111503244","refseq","XM_023157506.1","uncharacterized LOC111503244","j",7.79038211666129,-14.1103276877481,-27.5899132732304
+"TU19843","LOC111506965","G11142","uncharacterized LOC111506965","refseq","XR_002722327.1","uncharacterized LOC111506965, transcript variant X2","i",1.03443470777571,3.0238527357035,1.07200499792303
+"TU44445","LOC111516657","G26335","dual specificity mitogen-activated protein kinase kinase 4-like","refseq","XM_023172800.1","dual specificity mitogen-activated protein kinase kinase 4-like","j",0.625844936242273,-0.549432324306581,-1.05013045831697
+"TU29080","LOC111510516","G16447","E-selectin-like","refseq","XM_023166438.1","E-selectin-like","=",0.88330677475138,3.3044355717176,0.971259232720774
+"TU35398","LOC111512978","G20287","uncharacterized LOC111512978","refseq","XR_002723149.1","uncharacterized LOC111512978","j",-13.9644528000799,8.65523169130054,27.6376964352031
+"TU62","LOC111517487","G39","protein lethal(2)essential for life-like","refseq","XM_023173699.1","protein lethal(2)essential for life-like","=",5.61496190404408,2.42808444055173,-1.1320597911956
+"TU36147","LOC111513274","G20757","uncharacterized LOC111513274","refseq","XM_023169458.1","uncharacterized LOC111513274, transcript variant X1","x",2.1119731091057,0.85246503620639,-0.848926062160536
+"TU42780","LOC111515942","G25082","extracellular sulfatase SULF-1 homolog","refseq","XM_023172137.1","extracellular sulfatase SULF-1 homolog","=",0.661234448451037,-0.580809558824438,-1.11386320845946
+"TU8506","LOC111502532","G4736","death-associated protein kinase related","refseq","XM_023156633.1","death-associated protein kinase related, transcript variant X2","j",6.74047932064625,-14.8103473065421,-27.5935882728463
+"TU8833","Trnar-acg","G4941",NA,"refseq","Trnar-acg_2",NA,"y",12.6866512954832,-9.86398458925974,-27.5930370316247
+"TU6783",NA,"G3741","* ---NA---","novel",NA,"---NA---","u",10.877262760671,-11.7378808341753,-27.5917722377715
+"TU6326","LOC111518170","G3500","uncharacterized LOC111518170","refseq","XM_023174530.1","uncharacterized LOC111518170","j",5.03134126862194,-15.8462212997536,-27.5845729151729
+"TU6627","LOC111518294","G3669","uncharacterized LOC111518294","refseq","XR_002723943.1","uncharacterized LOC111518294","j",-9.8567797451792,12.9686487516633,27.6412493272145
+"TU40202",NA,"G23335","* ---NA---","novel",NA,"---NA---","u",1.42794566480505,-0.65429859183258,-2.0970694780787
+"TU41930",NA,"G24509","* s68306 pol retrotransposon woot","novel","KAB0803020","s68306 pol retrotransposon woot","u",-0.566095966365527,0.5242429182227,0.972799397205935
+"TU1083","LOC111502929","G545","protein-tyrosine sulfotransferase-like","refseq","XM_023157117.1","protein-tyrosine sulfotransferase-like","=",-3.81876095804925,6.31290333092503,15.2085832757851
+"TU19023","LOC111506608","G10676","adenylosuccinate synthetase","refseq","XM_023161733.1","adenylosuccinate synthetase","j",1.23774700358259,0.57313563604072,-0.562808622670758
+"TU18988","LOC111506592","G10653","eukaryotic translation initiation factor 2 subunit 2","refseq","XM_023161712.1","eukaryotic translation initiation factor 2 subunit 2","=",-0.855875393802043,-0.364188305614782,0.446697562053967
+"TU37992",NA,"G21916","* hypothetical protein JTB14_029298","novel","KAG5872784","hypothetical protein JTB14_029298","u",9.35440663812699,-13.0101399827312,-27.5917329821
+"TU45502","LOC111517146","G27151","uncharacterized LOC111517146","refseq","XM_023173210.1","uncharacterized LOC111517146","j",6.38478161698872,-15.0237474299444,-27.5915109538741
+"TU2142","LOC111507769","G1159","E3 ubiquitin-protein ligase HECW2","refseq","XM_023163149.1","E3 ubiquitin-protein ligase HECW2, transcript variant X5","j",14.87366734683,-6.90654603843235,-27.5934797940446
+"TU23476","LOC111508395","G13223","syntaxin-1A-like","refseq","XM_023163869.1","syntaxin-1A-like","=",0.691380106254505,-0.611748280094422,-1.20362150804479
+"TU35208","LOC111512909","G20176","4-nitrophenylphosphatase-like","refseq","XM_023169066.1","4-nitrophenylphosphatase-like, transcript variant X1","m",11.5870899639456,-11.0668374589645,-27.5932146970989
+"TU9900","LOC111503088","G5548","PDZ domain-containing protein 2-like","refseq","XM_023157305.1","PDZ domain-containing protein 2-like, transcript variant X1","=",1.13484690515445,-0.698905647047815,-1.78397126468949
+"TU7317","LOC111502036","G4072","monocarboxylate transporter 13","refseq","XM_023155998.1","monocarboxylate transporter 13","j",23.2543541743295,4.00597495338327,-15.8722701446801
+"TU27233","LOC111509816","G15369","synaptic vesicle glycoprotein 2B","refseq","XM_023165647.1","synaptic vesicle glycoprotein 2B","=",0.577670720505759,1.54755357060428,0.67056919234258
+"TU32174","LOC111511754","G18318","carboxypeptidase E-like","refseq","XM_023167784.1","carboxypeptidase E-like","=",0.497893551807389,1.43779822763281,0.682465722158921
+"TU38278","LOC111514091","G22095","tyrosine--tRNA ligase","refseq","XM_023170329.1","tyrosine--tRNA ligase, cytoplasmic","=",-0.821292132632631,-0.412587977959682,0.380077581873958
+"TU30395","LOC111511057","G17236","uncharacterized LOC111511057","refseq","XR_002722857.1","uncharacterized LOC111511057","=",0.819010606862618,-1.15235548606774,-1.9318300978916
+"TU30394",NA,"G17235","* hypothetical protein JTB14_010157","novel","KAG5876468","hypothetical protein JTB14_010157","u",0.699611270854475,-1.05673284093518,-1.6467700994342
+"TU38404","LOC111514140","G22178","kinesin-like protein KIF3A","refseq","XM_023170377.1","kinesin-like protein KIF3A","=",10.2253043726364,-12.3202685364417,-27.5928933226117
+"TU13978",NA,"G7872","* hypothetical protein JTB14_003030","novel","KAG5887935","hypothetical protein JTB14_003030","u",0.782006543644311,-0.838654072547524,-1.48999502934581
+"TU13403","LOC111504492","G7547","E-selectin-like","refseq","XM_023159056.1","E-selectin-like","i",14.7685741415176,-14.2884404234087,-29.0033080267564
+"TU39532","LOC111514596","G22885","voltage-dependent calcium channel subunit alpha-2/delta-3-like","refseq","XM_023170856.1","voltage-dependent calcium channel subunit alpha-2/delta-3-like","j",-13.2049892382799,9.68226686332878,27.6395562044038
+"TU20893","LOC111507367","G11733","tensin","refseq","XM_023162665.1","tensin","j",14.1457948089427,-7.94813097884472,-27.5910378318689
+"TU20898","LOC111507367","G11733","tensin","refseq","XM_023162665.1","tensin","j",10.6132665704314,-11.9932081208029,-27.593915032274
+"TU25609","LOC111509190","G14425","mucin-5AC-like","refseq","XM_023164882.1","mucin-5AC-like","n",9.68194057051603,-12.7641454942877,-27.5929322536532
+"TU17518","LOC111506090","G9869","CLIP-associating protein 1","refseq","XM_023161034.1","CLIP-associating protein 1","c",0.810170563003117,-0.56656498151222,-1.32916344901003
+"TU36294","LOC111513337","G20850","GILT-like protein 1","refseq","XM_023169538.1","GILT-like protein 1","y",-21.4463455680012,-31.6294149119428,-4.06421396997366
+"TU36292","LOC111513336","G20848","GILT-like protein 1","refseq","XM_023169537.1","GILT-like protein 1","=",-9.06700057057215,-15.6017135810889,-2.86238254403868
+"TU36299","LOC111513338","G20854","GILT-like protein 1","refseq","XM_023169539.1","GILT-like protein 1","=",-6.72935532430229,-9.22902542562625,-1.0811008029172
+"TU16154","LOC111505564","G9104","zinc finger protein 271-like","refseq","XM_023160391.1","zinc finger protein 271-like","j",0.72447155934558,-0.525844656985775,-1.16277662030741
+"TU16296","LOC111505609","G9170","uncharacterized LOC111505609","refseq","XM_023160450.1","uncharacterized LOC111505609, transcript variant X1","j",7.28643523835227,-14.4641378094213,-27.5940043163966
+"TU4371","LOC111517333","G2406","collagen alpha-1(I) chain-like","refseq","XM_023173447.1","collagen alpha-1(I) chain-like, transcript variant X2","j",-15.9518977658187,5.51239319839965,27.628480829863
+"TU4377","LOC111517322","G2409","uncharacterized LOC111517322","refseq","XR_002723802.1","uncharacterized LOC111517322","=",-1.56968946448932,-14.4874763069496,-8.08516846359193
+"TU35585",NA,"G20412","* uncharacterized protein LOC111512244","novel","XP_023024106","uncharacterized protein LOC111512244","u",-9.771907782496,-28.3858333737382,-18.2480397713579
+"TU20442","LOC111507197","G11462","uncharacterized LOC111507197","refseq","XM_023162484.1","uncharacterized LOC111507197, transcript variant X1","j",7.07472608354897,-14.5902493851947,-27.5921626732012
+"TU19295","LOC111506720","G10816","facilitated trehalose transporter Tret1-like","refseq","XM_023161905.1","facilitated trehalose transporter Tret1-like, transcript variant X2","=",7.8675947151488,-14.0803710393216,-27.5936087867072
+"TU42416","LOC111515789","G24837","uncharacterized LOC111515789","refseq","XM_023171990.1","uncharacterized LOC111515789","=",4.96802295288063,-15.899864998953,-27.5876112168524
+"TU8897",NA,"G4977","* ---NA---","novel",NA,"---NA---","r",-0.771911675122911,0.75717775480838,1.40093845799933
+"TU33618",NA,"G19220","* unnamed protein product","novel","CAD7465957","unnamed protein product","r",-4.70259506606149,-13.0097609421955,-7.59212921113775
+"TU4188","LOC111517280","G2313","integrator complex subunit 1","refseq","XM_023173367.1","integrator complex subunit 1","j",0.518760430681123,1.41733400120079,0.679806595690658
+"TU34737","LOC111512733","G19884","TGF-beta-activated kinase 1 and MAP3K7-binding protein 2","refseq","XM_023168883.1","TGF-beta-activated kinase 1 and MAP3K7-binding protein 2","j",11.4685999142855,-11.189735226903,-27.5936963607467
+"TU27245","LOC111509828","G15378","endocuticle structural glycoprotein SgAbd-2-like","refseq","XM_023165659.1","endocuticle structural glycoprotein SgAbd-2-like, transcript variant X2","=",1.58066340064769,-1.52694609125164,-7.81408118855094
+"TU27241","LOC111509826","G15375","endocuticle structural glycoprotein SgAbd-2-like","refseq","XM_023165655.1","endocuticle structural glycoprotein SgAbd-2-like","=",1.74549171175945,-3.10434026886712,-8.87823686982911
+"TU664","LOC111518303","G337","uncharacterized LOC111518303","refseq","XM_023174720.1","uncharacterized LOC111518303","=",-0.502387975617107,-1.61246644005024,-0.824963409497134
+"TU31788","LOC111511589","G18079","cytochrome P450 4C1-like","refseq","XM_023167615.1","cytochrome P450 4C1-like","j",7.82898975036561,-14.102203665589,-27.5929352527988
+"TU8718","LOC111502625","G4872","ribokinase-like","refseq","XM_023156740.1","ribokinase-like, transcript variant X2","=",1.15256556693614,-1.20443830827736,-3.08642364619543
+"TU23190","LOC111508278","G13051","general odorant-binding protein 83a-like","refseq","XM_023163718.1","general odorant-binding protein 83a-like","j",14.9387485884856,-8.81520125071617,-27.8121357525096
+"TU6810","LOC111501825","G3755","uncharacterized LOC111501825","refseq","XR_002721652.1","uncharacterized LOC111501825, transcript variant X1","j",5.68136576550987,-4.94606732832133,-11.9843151453929
+"TU6818","LOC111501828","G3762","deoxynucleoside kinase-like","refseq","XM_023155743.1","deoxynucleoside kinase-like, transcript variant X1","j",6.64083561167196,-14.8749374588575,-27.5939235246467
+"TU14406","LOC111504865","G8100","zinc finger protein 732-like","refseq","XM_023159575.1","zinc finger protein 732-like, transcript variant X1","j",6.21936211572467,-15.1285088018568,-27.5917224425182
+"TU27631","LOC111509963","G15604","DNA ligase 1-like","refseq","XM_023165825.1","DNA ligase 1-like","j",14.0404462629283,-8.11753206756786,-27.5931981800725
+"TU8813","LOC111502666","G4930","MIP18 family protein CG30152","refseq","XM_023156794.1","MIP18 family protein CG30152, transcript variant X1","=",0.562728352096033,-0.450217347823139,-0.92011630487955
+"TU5176","LOC111517713","G2874","maternal protein pumilio","refseq","XM_023173951.1","maternal protein pumilio, transcript variant X2","j",14.617196681533,-13.493534270514,-28.4345798975577
+"TU24212",NA,"G13633","* hypothetical protein JTB14_033208","novel","KAG5884670","hypothetical protein JTB14_033208","u",11.0382932943489,-11.6040980191291,-27.5936338407021
+"TU23689",NA,"G13339","* CLIP-associating protein 1","novel","XP_023016802","CLIP-associating protein 1","u",1.10060694252569,-1.01997565771389,-2.1696802666043
+"TU29098","LOC111510528","G16462","phenoloxidase 2-like","refseq","XM_023166445.1","phenoloxidase 2-like","j",-8.57157746633471,13.8776658739797,27.641175225795
+"TU26633","LOC111509589","G15024","protein Fe65 homolog","refseq","XM_023165357.1","protein Fe65 homolog, transcript variant X2","j",15.8551132893386,-11.8119022928785,-28.4175211035969
+"TU7272","LOC111502021","G4050","zinc finger CCCH-type with G patch domain-containing protein","refseq","XM_023155972.1","zinc finger CCCH-type with G patch domain-containing protein","k",-7.933834412864,14.2896211511863,27.6412003733258
+"TU39052","LOC111514393","G22587","uncharacterized LOC111514393","refseq","XR_002723361.1","uncharacterized LOC111514393","=",-3.96369557716617,-7.58803244946853,-1.74677990266922
+"TU11331","LOC111503627","G6324","sideroflexin-2","refseq","XM_023157980.1","sideroflexin-2, transcript variant X1","k",9.66713692973804,-12.7816653399277,-27.5937391951744
+"TU6060","LOC111518054","G3349","putative neutral sphingomyelinase","refseq","XM_023174381.1","putative neutral sphingomyelinase","=",1.10775252446367,0.335691117039545,-0.700118514931619
+"TU3152","LOC111512598","G1697","probable multidrug resistance-associated protein lethal(2)03659","refseq","XM_023168742.1","probable multidrug resistance-associated protein lethal(2)03659","j",13.0168896295704,-16.0365399410714,-29.0139618291536
+"TU9763","LOC111503019","G5459","uncharacterized LOC111503019","refseq","XM_023157218.1","uncharacterized LOC111503019","j",13.5675666125873,-8.76851890494677,-27.5938272207005
+"TU44160","LOC111516547","G26117","uncharacterized LOC111516547","refseq","XR_002723690.1","uncharacterized LOC111516547","k",0.411888476838643,-0.3572911158245,-0.714734917747954
+"TU21815","LOC111507731","G12249","equilibrative nucleoside transporter 1-like","refseq","XM_023163075.1","equilibrative nucleoside transporter 1-like","i",-23.3571257109447,-6.43324504977879,9.79714974929892
+"TU24867","LOC111508912","G13989","uncharacterized LOC111508912","refseq","XR_002722585.1","uncharacterized LOC111508912, transcript variant X2","j",8.3710518045231,-13.8494307907665,-27.6120633581089
+"TU42873",NA,"G25145","* zinc finger protein 271-like","novel","XP_028127933","zinc finger protein 271-like","u",-6.92411061488909,14.8918249960607,27.6380889613749
+"TU37935",NA,"G21882","* ---NA---","novel",NA,"---NA---","u",13.24910511913,-14.948006325197,-28.5202408981633
+"TU11189","LOC111503553","G6235","uncharacterized LOC111503553","refseq","XM_023157891.1","uncharacterized LOC111503553, transcript variant X2","j",8.88560700272012,-13.3717730725087,-27.5935619891941
+"TU35645","LOC111513077","G20451","beta-galactosidase-1-like protein 3","refseq","XM_023169235.1","beta-galactosidase-1-like protein 3","=",-2.24754181208758,-9.43946760096248,-5.93329786297715
+"TU25678","LOC111509201","G14458","serine protease gd-like","refseq","XM_023164896.1","serine protease gd-like, transcript variant X1","=",7.03429720051136,-5.22469300140343,-15.0307582616191
+"TU18140","LOC111506295","G10194","uncharacterized LOC111506295","refseq","XR_002722242.1","uncharacterized LOC111506295, transcript variant X1","j",0.892887923345077,-0.771789237769886,-1.52144837463359
+"TU23768","LOC111508496","G13381","neuroglian","refseq","XM_023164014.1","neuroglian, transcript variant X1","=",1.29813261637394,0.436962057110848,-0.697113023864444
+"TU36835",NA,"G21179","* CLIP-associating protein 1","novel","XP_023016802","CLIP-associating protein 1","u",1.05727555805364,-0.522681453516179,-1.52912630474965
+"TU36836",NA,"G21180","* CLIP-associating protein 1","novel","XP_023016802","CLIP-associating protein 1","u",1.02034722170247,-0.537082602388244,-1.52015882306601
+"TU35367","LOC111512970","G20266","acetylcholinesterase 1-like","refseq","XM_023169134.1","acetylcholinesterase 1-like","=",-11.438959484544,-3.70296605983909,6.3532558730562
+"TU14458","LOC111504890","G8129","UPF0565 protein C2orf69 homolog","refseq","XM_023159601.1","UPF0565 protein C2orf69 homolog, transcript variant X5","=",2.46898903767216,-4.08318353028727,-10.6457491061975
+"TU17180","LOC111505962","G9689","polygalacturonase-like","refseq","XM_023160879.1","polygalacturonase-like","=",-4.75010668404352,-9.280783270347,-1.15377616364955
+"TU12488","LOC111504089","G6982","RNA-binding protein fusilli-like","refseq","XM_023158580.1","RNA-binding protein fusilli-like, transcript variant X1","=",1.25683511344544,-0.841369154111146,-2.13961853598401
+"TU36792","LOC111513520","G21151","F-box/LRR-repeat protein 16","refseq","XM_023169738.1","F-box/LRR-repeat protein 16","=",0.875711843311066,2.31883503049596,0.836206201081206
+"TU43886","LOC111516424","G25916","uncharacterized LOC111516424","refseq","XM_023172587.1","uncharacterized LOC111516424","=",0.956446127560765,3.02545143548519,1.41184730308623
+"TU28477","LOC111510272","G16090","receptor-type tyrosine-protein phosphatase N2","refseq","XM_023166182.1","receptor-type tyrosine-protein phosphatase N2","k",1.00668566620075,2.5919568309004,0.917948654042906
+"TU17102","LOC111505931","G9648","cathepsin B-like","refseq","XM_023160839.1","cathepsin B-like","m",-7.8729353655909,-2.95105724339164,1.62739587878076
+"TU22561","LOC111508007","G12699","soluble guanylate cyclase 89Da-like","refseq","XM_023163416.1","soluble guanylate cyclase 89Da-like","i",10.079591016302,-12.4260894127333,-27.5907827417324
+"TU36058","LOC111513241","G20707","uncharacterized LOC111513241","refseq","XR_002723187.1","uncharacterized LOC111513241","n",10.2774624910593,-12.2794530951299,-27.5933216407006
+"TU12850","LOC111504257","G7219","15-hydroxyprostaglandin dehydrogenase [NAD(+)]-like","refseq","XM_023158772.1","15-hydroxyprostaglandin dehydrogenase [NAD(+)]-like","j",5.9705769991047,-15.2910873426019,-27.5931705629572
+"TU4922","LOC111517604","G2730","vanin-like protein 3","refseq","XM_023173808.1","vanin-like protein 3","j",1.74363291718421,0.665224383036551,-0.94043935369448
+"TU34162","LOC111512518","G19532","E3 ubiquitin-protein ligase UHRF1-like","refseq","XM_023168654.1","E3 ubiquitin-protein ligase UHRF1-like","j",1.0256592049919,-0.718480068201372,-1.71564655295389
+"TU34163","LOC111512518","G19533","E3 ubiquitin-protein ligase UHRF1-like","refseq","XM_023168654.1","E3 ubiquitin-protein ligase UHRF1-like","c",0.550124939223467,-0.511037915690639,-0.954249350918555
+"TU22137","LOC111507850","G12435","probable multidrug resistance-associated protein lethal(2)03659","refseq","XM_023163219.1","probable multidrug resistance-associated protein lethal(2)03659","j",14.9800100499335,-6.64488483809742,-27.5823196775065
+"TU16539","LOC111505705","G9318","endoglucanase-like","refseq","XM_023160558.1","endoglucanase-like","=",-8.14963639547345,-13.4781037051528,-2.58001592651131
+"TU20213","LOC111507123","G11357","uncharacterized LOC111507123","refseq","XM_023162379.1","uncharacterized LOC111507123","o",-1.76789834897256,1.9928942270207,6.48212090640782
+"TU31513","LOC111511488","G17914","protein eyes shut-like","refseq","XM_023167503.1","protein eyes shut-like","j",7.63857426370727,-0.451498834588888,-8.1893461025097
+"TU30287","LOC111511015","G17171","vacuolar protein sorting-associated protein 13-like","refseq","XM_023167012.1","vacuolar protein sorting-associated protein 13-like","=",8.60282258818144,-15.0134828542487,-27.8553027946816
+"TU41757",NA,"G24386","* ---NA---","novel",NA,"---NA---","u",7.7730834228621,-14.1382202921907,-27.5927258939846
+"TU44673",NA,"G26506","* atrial natriuretic peptide receptor 2-like","novel","XP_023020269","atrial natriuretic peptide receptor 2-like","u",11.4431101264716,-11.2056902208295,-27.5926287744145
+"TU19661","LOC111506888","G11026","uncharacterized LOC111506888","refseq","XM_023162111.1","uncharacterized LOC111506888, transcript variant X2","=",-8.51518418940132,-17.7853219689187,-9.234919927197
+"TU19302","LOC111506724","G10821","uncharacterized LOC111506724","refseq","XM_023161917.1","uncharacterized LOC111506724","j",12.8948485839812,-9.58780575670374,-27.5902360554051
+"TU8067","LOC111502333","G4480","vacuolar protein sorting-associated protein 33B","refseq","XM_023156401.1","vacuolar protein sorting-associated protein 33B","j",11.6219639201884,-11.0268313390819,-27.5926848195892
+"TU5888","LOC111517981","G3259","tyrosine-protein kinase PR2","refseq","XM_023174283.1","tyrosine-protein kinase PR2, transcript variant X2","=",1.06728749650671,0.329415902178533,-0.648027015376015
+"TU44404",NA,"G26304","* protein yellow","novel","XP_023015390","protein yellow","u",-6.18412268208136,15.3335732992092,27.6383395875736
+"TU7787","LOC111502236","G4330","uncharacterized LOC111502236","refseq","XM_023156251.1","uncharacterized LOC111502236","k",6.34294664568679,-15.2516718546196,-27.636449417965
+"TU12459","LOC111504077","G6962","cilia- and flagella-associated protein 58-like","refseq","XM_023158565.1","cilia- and flagella-associated protein 58-like","j",18.7288817909729,-2.09753856360192,-23.556112473535
+"TU4678","LOC111517478","G2596","myrosinase 1-like","refseq","XM_023173655.1","myrosinase 1-like, transcript variant X1","=",-1.45863159694535,-4.79887212815314,-1.04353528174866
+"TU43524","LOC111516249","G25630","uncharacterized LOC111516249","refseq","XM_023172427.1","uncharacterized LOC111516249","=",1.54107404739365,3.04866584349491,0.815866744778262
+"TU16448","LOC111505672","G9262","uncharacterized LOC111505672","refseq","XM_023160522.1","uncharacterized LOC111505672","k",10.5270815694509,-14.2050623134031,-27.9048917212495
+"TU4921","LOC111517604","G2729","vanin-like protein 3","refseq","XM_023173808.1","vanin-like protein 3","j",1.24246508855511,0.616653603531257,-0.552634969261918
+"TU37360",NA,"G21516","* cathepsin L-like proteinase","novel","XP_023027467","cathepsin L-like proteinase","u",-9.88496193856348,-26.1918463166113,-16.0063837297895
+"TU21991","LOC111507800","G12352","venom carboxylesterase-6-like","refseq","XM_023163157.1","venom carboxylesterase-6-like","=",-4.15398887976299,-11.2247812938749,-1.7489614751031
+"TU33090","LOC111512130","G18903","uncharacterized LOC111512130","refseq","XM_023168228.1","uncharacterized LOC111512130","o",9.4540945432277,-13.7577927311365,-27.7151092891858
+"TU6660","LOC111518302","G3686","uncharacterized LOC111518302","refseq","XR_002723944.1","uncharacterized LOC111518302, transcript variant X1","k",-12.6961918861819,10.3000989725725,27.6400482693584
+"TU2391","LOC111509077","G1287","lipase 1-like","refseq","XM_023164756.1","lipase 1-like","j",11.8332653065017,-10.8176605188446,-27.5936343811984
+"TU37203","LOC111513673","G21415","uncharacterized protein PFB0765w-like","refseq","XM_023169897.1","uncharacterized protein PFB0765w-like","=",7.00470831253333,-14.6447928753246,-27.5939920161135
+"TU22531","LOC111507995","G12678","myosin-VIIa","refseq","XM_023163403.1","myosin-VIIa","j",0.808567068701973,-0.820605178672104,-1.57007833056401
+"TU17005","LOC111505896","G9606","uncharacterized LOC111505896","refseq","XM_023160789.1","uncharacterized LOC111505896","j",6.16200258532973,-17.5305387458072,-28.2689058094412
+"TU21126","LOC111507460","G11864","uncharacterized LOC111507460","refseq","XM_023162761.1","uncharacterized LOC111507460, transcript variant X3","j",13.9732435823657,-14.9306860814862,-28.8654876064024
+"TU19659","LOC111506888","G11026","uncharacterized LOC111506888","refseq","XM_023162111.1","uncharacterized LOC111506888, transcript variant X2","j",-8.27272407020017,-18.8132780845371,-10.457737699477
+"TU6376","LOC111518180","G3527","5-hydroxytryptamine receptor 1-like","refseq","XM_023174542.1","5-hydroxytryptamine receptor 1-like","j",16.5233819970383,-4.18501702276283,-27.5584245493665
+"TU27627","LOC111509963","G15604","DNA ligase 1-like","refseq","XM_023165825.1","DNA ligase 1-like","j",11.2596040656392,-11.3969088695007,-27.5940007638308
+"TU44324",NA,"G26242","* DNA transposase THAP9","novel","KAB0793926","DNA transposase THAP9","u",7.76881005134266,-14.1176251973336,-27.5886919274098
+"TU42851","LOC111515971","G25131","uncharacterized LOC111515971","refseq","XR_002723613.1","uncharacterized LOC111515971","j",12.7036183687194,-9.84102163259024,-27.5927313486813
+"TU33161","LOC111512152","G18941","probable cytochrome P450 6a20","refseq","XM_023168255.1","probable cytochrome P450 6a20","j",6.95167503632889,-15.3933015811089,-27.7483339137033
+"TU1043","LOC111502813","G520","uncharacterized LOC111502813","refseq","XM_023156985.1","uncharacterized LOC111502813, transcript variant X2","j",4.35082548218285,-16.2843842173839,-27.5819864666687
+"TU40640","LOC111515064","G23617","uncharacterized LOC111515064","refseq","XM_023171303.1","uncharacterized LOC111515064","k",-3.43549874900884,1.33732404679592,7.56726797671829
+"TU37427","LOC111513754","G21557","esterase B1-like","refseq","XM_023169980.1","esterase B1-like","j",11.3387311909303,-11.3198464173686,-27.5939629563219
+"TU40108","LOC111514843","G23274","multidrug resistance-associated protein 1-like","refseq","XM_023171081.1","multidrug resistance-associated protein 1-like","j",0.627222433914052,-0.512865792763008,-1.08148445264931
+"TU4394","LOC111517338","G2420","cytosolic carboxypeptidase 6","refseq","XM_023173454.1","cytosolic carboxypeptidase 6","j",12.9156923601397,-13.5319687281277,-28.0781062369815
+"TU11215",NA,"G6253","* cytochrome b561 domain-containing protein 2","novel","XP_018567157","cytochrome b561 domain-containing protein 2","u",-10.767636552604,12.2364112361106,27.6415840515048
+"TU32865","LOC111512049","G18769","GTP-binding protein SAR1b","refseq","XM_023168144.1","GTP-binding protein SAR1b","j",1.9238118062272,0.982311633710103,-0.746510123065367
+"TU1979","LOC111507120","G1059","AP-1 complex subunit sigma-2","refseq","XM_023162380.1","AP-1 complex subunit sigma-2","k",22.8298052111628,8.97966595160981,-12.9853579399184
+"TU11945","LOC111503860","G6675","uncharacterized LOC111503860","refseq","XM_023158283.1","uncharacterized LOC111503860","j",1.37900865323749,-1.4417721505422,-5.72083301868437
+"TU4427","LOC111517352","G2441","ceramide-1-phosphate transfer protein","refseq","XM_023173483.1","ceramide-1-phosphate transfer protein","j",7.03556457388589,-14.6252933526211,-27.5940267133576
+"TU4426","LOC111517352","G2441","ceramide-1-phosphate transfer protein","refseq","XM_023173483.1","ceramide-1-phosphate transfer protein","k",5.43687532559348,-15.6260120142186,-27.5932850260528
+"TU42748","LOC111515925","G25057","protein lethal(2) giant larvae","refseq","XM_023172123.1","protein lethal(2) giant larvae","j",0.723952898310758,-0.832523007516752,-1.50850366799786
+"TU6137",NA,"G3390","* apidaecins type 73-like","novel","KAG5883511","apidaecins type 73-like","u",3.19982983196849,-9.13838322295556,-15.8278526084159
+"TU9638",NA,"G5389","* ---NA---","novel",NA,"---NA---","u",12.3072139570156,-10.2776524230529,-27.590678771415
+"TU15475",NA,"G8739","* ---NA---","novel",NA,"---NA---","u",10.751769886005,-11.8648769593629,-27.5933403803266
+"TU19253","LOC111506703","G10794","guanylate cyclase soluble subunit beta-1","refseq","XM_023161876.1","guanylate cyclase soluble subunit beta-1","j",-1.41828485286541,6.6408150890228,10.3626756473908
+"TU10483","LOC111503316","G5874","retinol-binding protein pinta-like","refseq","XM_023157598.1","retinol-binding protein pinta-like","=",5.80024593503493,-17.98889798746,-28.3739222618703
+"TU38783","LOC111514283","G22432","uncharacterized LOC111514283","refseq","XM_023170520.1","uncharacterized LOC111514283","=",0.899297737300302,-1.11354724561683,-2.00214025440874
+"TU36871","LOC111513545","G21201","peptide methionine sulfoxide reductase","refseq","XM_023169767.1","peptide methionine sulfoxide reductase","j",0.895950001646884,2.10035561734258,0.837831420303662
+"TU6794","LOC111501815","G3747","facilitated trehalose transporter Tret1-like","refseq","XM_023155732.1","facilitated trehalose transporter Tret1-like","=",-1.49034168631519,-6.44055551203642,-2.47043683924828
+"TU35074","LOC111512852","G20086","matrix metalloproteinase-14-like","refseq","XM_023169020.1","matrix metalloproteinase-14-like, transcript variant X3","j",10.0737015519629,-12.4549992246104,-27.5939604023423
+"TU35077","LOC111512852","G20086","matrix metalloproteinase-14-like","refseq","XM_023169019.1","matrix metalloproteinase-14-like, transcript variant X2","j",10.2894698941116,-12.2736638939376,-27.5938909311055
+"TU11082","LOC111503509","G6170","phosphatase and actin regulator 1-like","refseq","XM_023157834.1","phosphatase and actin regulator 1-like, transcript variant X1","=",0.556972792262799,-0.490930225764128,-0.949101061948139
+"TU14108","LOC111504758","G7941","ubiquitin carboxyl-terminal hydrolase MINDY-3 homolog","refseq","XM_023159451.1","ubiquitin carboxyl-terminal hydrolase MINDY-3 homolog","p",-1.47545303949434,-0.61887902941737,0.673101241282886
+"TU4103","LOC111517191","G2255","leucine-rich repeat-containing protein 15-like","refseq","XM_023173263.1","leucine-rich repeat-containing protein 15-like","e",1.28503290990605,2.78045529828465,0.856625613727857
+"TU8592","LOC111502566","G4787","toll-like receptor 7","refseq","XM_023156677.1","toll-like receptor 7","j",12.5671280515794,-10.0113431888627,-27.5938338449987
+"TU39846","LOC111514722","G23097","uncharacterized LOC111514722","refseq","XM_023170970.1","uncharacterized LOC111514722","j",14.7281020878418,-11.873807965055,-28.1247911297444
+"TU39265","LOC111514483","G22734","uncharacterized LOC111514483","refseq","XM_023170721.1","uncharacterized LOC111514483","=",4.06395537176483,-1.51050468433657,-10.3286454874801
+"TU16255","LOC111505591","G9147","TGF-beta receptor type-1","refseq","XM_023160423.1","TGF-beta receptor type-1, transcript variant X1","j",14.0388521381331,-14.8668386931011,-28.8656839374772
+"TU35757","LOC111513121","G20529","facilitated trehalose transporter Tret1-like","refseq","XM_023169283.1","facilitated trehalose transporter Tret1-like","=",2.62642424709531,7.36313815781619,1.04760079930621
+"TU3832","LOC111515985","G2101","L-lactate dehydrogenase","refseq","XM_023172185.1","L-lactate dehydrogenase, transcript variant X2","x",6.57530313767828,-14.9144579143754,-27.5935844930929
+"TU37183","LOC111513667","G21401","tetratricopeptide repeat protein 39B-like","refseq","XM_023169891.1","tetratricopeptide repeat protein 39B-like, transcript variant X1","o",-4.56621276902738,-13.0151539764709,-7.19151759391201
+"TU9777","LOC111503029","G5469","methyl-CpG-binding domain protein 2","refseq","XM_023157227.1","methyl-CpG-binding domain protein 2","o",8.45910849306886,-13.6769949470177,-27.5937443052982
+"TU8412","LOC111502480","G4677","patronin","refseq","XM_023156571.1","patronin","j",14.1234375057484,-7.97162466507652,-27.5902042660245
+"TU29974","LOC111510884","G16983","2","refseq","XM_023166839.1","2,5-diketo-D-gluconic acid reductase A-like","k",0.341575941405964,-0.324709119468073,-0.625801018378278
+"TU44713","LOC111516775","G26534","uncharacterized LOC111516775","refseq","XM_023172890.1","uncharacterized LOC111516775","o",0.583315216675084,-0.534736023580592,-0.9982502942293
+"TU10316",NA,"G5774","* 52 kDa repressor of the inhibitor of the protein kinase-like","novel","XP_026808687","52 kDa repressor of the inhibitor of the protein kinase-like","u",7.13720636517338,-14.55112307315,-27.5923376242468
+"TU24098","LOC111508608","G13564","farnesyl pyrophosphate synthase-like","refseq","XM_023164172.1","farnesyl pyrophosphate synthase-like","j",-12.3470058225622,10.7070616361344,27.641565564201
+"TU20402","LOC111507190","G11448","transcriptional activator cubitus interruptus","refseq","XM_023162472.1","transcriptional activator cubitus interruptus, transcript variant X2","c",-5.44847458051552,1.67075277274006,9.22539485982079
+"TU21487","LOC111507592","G12062","USP6 N-terminal-like protein","refseq","XM_023162932.1","USP6 N-terminal-like protein, transcript variant X3","j",2.26743842189971,-1.28070143507903,-5.34220855363318
+"TU20237","LOC111507136","G11371","neurofilament heavy polypeptide","refseq","XM_023162395.1","neurofilament heavy polypeptide, transcript variant X2","=",16.6965776435799,-3.52752434431592,-26.3889586095562
+"TU42454",NA,"G24860","* beta-galactosidase-1-like protein 3","novel","XP_023025003","beta-galactosidase-1-like protein 3","u",-1.68457565481826,-10.6811618225319,-6.41626028467295

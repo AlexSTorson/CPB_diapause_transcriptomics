@@ -1,0 +1,98 @@
+﻿Gene_Transcript_Name,Query_Transcript_ID,RefSeq_ID,DE_Category
+juvenile hormone acid O-methyltransferase,TU26710,XM_023165404.1,Shared
+juvenile hormone esterase,TU43771,XM_023172544.1,Shared
+juvenile hormone esterase,TU43784,XM_023172552.1,Shared
+juvenile hormone esterase,TU33660,XM_023168438.1,Shared
+juvenile hormone esterase,TU43124,XM_023172280.1,Shared
+juvenile hormone esterase,TU2162,XM_023163290.1,Shared
+juvenile hormone epoxide hydrolase,TU24456,XM_023164376.1,Shared
+apolipophorin,TU6511,XM_023174635.1,Shared
+Ecdysone 20-monooxygenase,TU26829,XM_023165447.1,Shared
+ecdysone-induced protein 74EF,TU28561,XM_023166209.1,Shared
+ecdysone-inducible protein E75,TU1729,XM_023160901.1,Shared
+forkhead box protein O-like,TU18234,XM_023161366.1,Shared
+forkhead box protein O-like,TU7562,XM_023156134.1,Shared
+hypoxia-inducible factor 1-alpha,TU24219,XM_023164233.1,Shared
+protein lethal(2)essential for life-like,TU64,XM_023173699.1,Shared
+cytochrome b,TU35976,not in reference,Shared
+cytochrome b,TU35977,not in reference,Shared
+V-type proton ATPase subunit H,TU3432,XM_023170356.1,Shared
+malate dehydrogenase,TU1666,XM_023160459.1,Shared
+isocitrate dehydrogenase,TU33675,XM_023168446.1,Shared
+ATP-citrate synthase,TU21689,XM_023163006.1,Shared
+pyruvate dehydrogenase,TU9869,XM_023157283.1,Shared
+alcohol dehydrogenase,TU10050,XM_023157370.1,Shared
+phosphoenolpyruvate carboxykinase,TU38804,XM_023170528.1,Shared
+trehalase,TU2522,XM_023165148.1,Shared
+hydroxyacyl-CoA dehydrogenase,TU24985,XM_023164600.1,Shared
+acyl-CoA dehydrogenase,TU19636,XM_023162098.1,Shared
+acyl-CoA Œî11 desaturase,TU21574,XM_023162963.1,Shared
+lipase 1-like,TU2388,XM_023164756.1,Shared
+lipase 3-like,TU23988,XM_023164124.1,Shared
+lipase 1-like,TU15067,XM_023159911.1,Shared
+lipid storage droplet,TU43755,QOJ44178,Shared
+lipid storage droplet,TU1097,XM_023157259.1,Shared
+lipid storage droplet,TU1096,XM_023157268.1,Shared
+vitellogenin,TU17167,XM_023160872.1,Shared
+platelet glycoprotein 4-like,TU44100,XM_023172665.1,Shared
+insulin-like growth factor-binding protein 7,TU32756,XM_023168088.1,Shared
+"phosphatidylinositol 4, 5-bisphosphate 3-kinase",TU603,XM_023174494.1,Shared
+equilibrative nucleoside transporter,TU29175,XM_023166476.1,Shared
+equilibrative nucleoside transporter 1,TU37531,XM_023170020.1,Male Unique
+pericentriolar material 1,TU15796,XM_023160219.1,Shared
+centrosome-associated protein 350-like,TU24297,XM_023164285.1,Shared
+tubulin,TU39876,XM_023170988.1,Shared
+microtubule-actin cross-linking factor,TU25072,XM_023164651.1,Shared
+microtubule-associated protein futsch,TU11025,XM_023157805.1,Shared
+dynein motor protein,TU8568,XM_023156674.1,Shared
+dynein motor protein,TU31063,XM_023167164.1,Shared
+dynein motor protein,TU9409,XM_023157076.1,Shared
+HSP83,TU18121,XM_023160972.1,Shared
+DnaJ chaperone,TU19231,XM_023161367.1,Shared
+DnaJ chaperone,TU24303,XM_023164301.1,Shared
+DnaJ chaperone,TU35434,XM_023169606.1,Shared
+DnaJ chaperone,TU12395,XM_023158712.1,Shared
+10 kDa mitochondrial HSP,TU8166,XM_023156590.1,Shared
+60 kDa mitochondrial HSP,TU19140,XP_018572799,Shared
+glutathione S-transferase,TU37837,XM_023170075.1,Shared
+headcase protein,TU45071,XP_023023996,Shared
+cytochrome P450,TU45221,not in reference,Shared
+cytochrome P450,TU45222,not in reference,Shared
+chorion protein-like,TU6875,XM_023156263.1,Female Unique
+hormone-sensitive lipase,TU18845,XM_023161842.1,Female Unique
+hepatocyte growth factor-regulated tyrosine kinase substrate,TU11872,XM_023158021.1,Female Unique
+vacuolar protein sorting-associated protein 29,TU21088,XM_023163020.1,Female Unique
+multivesicular body subunit 12B,TU18121,XM_023161042.1,Female Unique
+protein disulfide-isomerase A3,TU19040,XM_023161830.1,Female Unique
+heat shock 70 kDa protein,TU13651,XM_023159510.1,Female Unique
+isovaleryl-CoA dehydrogenase,TU18467,XM_023161271.1,Female Unique
+isovaleryl-CoA dehydrogenase,TU18468,XM_023161272.1,Female Unique
+short/branched chain specific acyl-CoA dehydrogenase,TU38251,XM_023170174.1,Female Unique
+methylcrotonoyl-CoA carboxylase,TU22110,XM_023163687.1,Female Unique
+protein timeless,TU17734,XP_023944838,Female Unique
+protein timeless,TU17630,XM_023160238.1,Female Unique
+protein timeless,TU41987,XM_023171952.1,Female Unique
+protein cycle,TU13581,XM_023159477.1,Female Unique
+period circadian protein,TU11176,XM_023157128.1,Female Unique
+period circadian protein,TU11179,XM_023157131.1,Female Unique
+couchpotato,TU8769,not in reference,Female Unique
+couchpotato,TU8773,not in reference,Female Unique
+couchpotato,TU8772,not in reference,Female Unique
+DNA ligase 1,TU15785,XM_023160688.1,Male Unique
+deoxynucleoside kinase,TU34574,XM_023169013.1,Male Unique
+equilibrative nucleoside transporter 1,TU37531,XM_023170020.1,Male Unique
+phospholipase C,TU26815,XM_023165847.1,Interaction
+phospholipase C,TU28916,XM_023166002.1,Interaction
+FoxO transcription factor,TU15600,XM_023160154.1,Interaction
+FoxO transcription factor,TU25378,XM_023164783.1,Interaction
+PI3K catalytic subunit,TU13141,XM_023158934.1,Interaction
+PI3K catalytic subunit,TU21302,XM_023162847.1,Interaction
+PDK1,TU14755,XM_023159721.1,Interaction
+heat shock protein 83,TU32473,XM_023168331.1,Interaction
+translation factor eIF4E,TU30056,XM_023166881.1,Interaction
+Hippo kinase,TU11375,XM_023157998.1,Interaction
+TGF-Œ≤ receptor type-1,TU16255,XM_023162761.1,Interaction
+zinc finger protein 32-like,TU40547,XM_023171268.1,Interaction
+protein yellow,TU29345,XM_023166554.1,Interaction
+monocarboxylate transporter 13,TU14952,XM_023159847.1,Interaction
+AP-1 complex sigma-2,TU18429,XM_023161459.1,Interaction

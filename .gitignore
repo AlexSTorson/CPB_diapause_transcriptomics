@@ -1,0 +1,48 @@
+# R files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data files (too large for GitHub)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.out
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pipeline outputs (too large)
+raw_reads/
+trimmed_reads/
+alignments*/
+assemblies/
+*_fastqc_results/
+
+# But keep documentation and supplemental tables
+!data/supplemental_tables/*.csv
+!data/supplemental_tables/*.txt
