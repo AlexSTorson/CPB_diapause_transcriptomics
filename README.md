@@ -32,7 +32,7 @@ CPB_diapause_transcriptomics/
 │   └── BASH_SCRIPTS.md    # Bash pipeline documentation
 │   └── R_SCRIPTS.md       # R analysis documentation
 ├── README.md              # This file
-└── LICENSE                # MIT License
+└── LICENSE                # US Government Work (Public Domain)
 ```
 
 ## Data Availability
@@ -156,7 +156,7 @@ Manuscript submitted to Journal of Insect Physiology.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This work was created by employees of the United States Department of Agriculture as part of their official duties and is in the public domain in the United States. For international users, this work is released under CC0 1.0 Universal (Public Domain Dedication). See the LICENSE file for complete details.
 
 ## Contact
 
