@@ -12,7 +12,7 @@ This repository contains analysis code and supplemental data for:
 
 USDA-ARS Edward T. Schafer Agricultural Research Center, Biosciences Research Laboratory, Fargo, ND 58102, USA
 
-Published in *Journal of Insect Physiology* (2025)
+*Manuscript submitted to Journal of Insect Physiology*
 
 ## Abstract
 
@@ -51,7 +51,7 @@ CPB_diapause_transcriptomics/
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/CPB_diapause_transcriptomics.git
+git clone https://github.com/AlexSTorson/CPB_diapause_transcriptomics.git
 cd CPB_diapause_transcriptomics
 ```
 
@@ -147,10 +147,12 @@ All supplemental tables (S1-S18) are provided in `data/supplemental_tables/`:
 If you use this code or data, please cite:
 
 ```
-Torson AS, Melicher D, Yocum GD, Rinehart JP (2025). 
+Torson AS, Melicher D, Yocum GD, Rinehart JP. 
 Diapause in the Colorado potato beetle is characterized by sex-specific gene expression.
-Journal of Insect Physiology. DOI: XX.XXXX/XXXXX
+Manuscript submitted to Journal of Insect Physiology.
 ```
+
+*This citation will be updated upon publication.*
 
 ## License
 
