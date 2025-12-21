@@ -1,0 +1,51 @@
+US Government Work
+
+This work was created by employees of the United States Department of Agriculture,
+Agricultural Research Service (USDA-ARS), as part of their official duties.
+
+Title 17 U.S.C. § 105 provides that copyright protection under U.S. law is not 
+available for any work of the United States Government. For purposes of copyright 
+law, a work of the United States Government is a work prepared by an officer or 
+employee of the United States Government as part of that person's official duties.
+
+As such, this work is in the public domain within the United States.
+
+INTERNATIONAL USE
+
+For users outside the United States, this work is released under the Creative 
+Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication:
+
+To the extent possible under law, the USDA-ARS has waived all copyright and 
+related or neighboring rights to this work. This work is published from the 
+United States.
+
+You can copy, modify, distribute and perform the work, even for commercial 
+purposes, all without asking permission.
+
+DISCLAIMER
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN 
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+USDA NONDISCRIMINATION STATEMENT
+
+In accordance with Federal civil rights law and U.S. Department of Agriculture 
+(USDA) civil rights regulations and policies, the USDA, its Agencies, offices, 
+and employees, and institutions participating in or administering USDA programs 
+are prohibited from discriminating based on race, color, national origin, religion, 
+sex, gender identity (including gender expression), sexual orientation, disability, 
+age, marital status, family/parental status, income derived from a public assistance 
+program, political beliefs, or reprisal or retaliation for prior civil rights activity, 
+in any program or activity conducted or funded by USDA (not all bases apply to all 
+programs).
+
+CONTACT
+
+For questions about this work, contact:
+Alex S. Torson
+USDA-ARS Edward T. Schafer Agricultural Research Center
+Email: Alex.Torson@usda.gov

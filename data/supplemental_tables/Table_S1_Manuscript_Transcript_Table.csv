@@ -1,98 +1,179 @@
-﻿Gene_Transcript_Name,Query_Transcript_ID,RefSeq_ID,DE_Category
-juvenile hormone acid O-methyltransferase,TU26710,XM_023165404.1,Shared
-juvenile hormone esterase,TU43771,XM_023172544.1,Shared
-juvenile hormone esterase,TU43784,XM_023172552.1,Shared
-juvenile hormone esterase,TU33660,XM_023168438.1,Shared
-juvenile hormone esterase,TU43124,XM_023172280.1,Shared
-juvenile hormone esterase,TU2162,XM_023163290.1,Shared
-juvenile hormone epoxide hydrolase,TU24456,XM_023164376.1,Shared
-apolipophorin,TU6511,XM_023174635.1,Shared
-Ecdysone 20-monooxygenase,TU26829,XM_023165447.1,Shared
-ecdysone-induced protein 74EF,TU28561,XM_023166209.1,Shared
-ecdysone-inducible protein E75,TU1729,XM_023160901.1,Shared
-forkhead box protein O-like,TU18234,XM_023161366.1,Shared
-forkhead box protein O-like,TU7562,XM_023156134.1,Shared
-hypoxia-inducible factor 1-alpha,TU24219,XM_023164233.1,Shared
-protein lethal(2)essential for life-like,TU64,XM_023173699.1,Shared
-cytochrome b,TU35976,not in reference,Shared
-cytochrome b,TU35977,not in reference,Shared
-V-type proton ATPase subunit H,TU3432,XM_023170356.1,Shared
-malate dehydrogenase,TU1666,XM_023160459.1,Shared
-isocitrate dehydrogenase,TU33675,XM_023168446.1,Shared
-ATP-citrate synthase,TU21689,XM_023163006.1,Shared
-pyruvate dehydrogenase,TU9869,XM_023157283.1,Shared
-alcohol dehydrogenase,TU10050,XM_023157370.1,Shared
-phosphoenolpyruvate carboxykinase,TU38804,XM_023170528.1,Shared
-trehalase,TU2522,XM_023165148.1,Shared
-hydroxyacyl-CoA dehydrogenase,TU24985,XM_023164600.1,Shared
-acyl-CoA dehydrogenase,TU19636,XM_023162098.1,Shared
-acyl-CoA Œî11 desaturase,TU21574,XM_023162963.1,Shared
-lipase 1-like,TU2388,XM_023164756.1,Shared
-lipase 3-like,TU23988,XM_023164124.1,Shared
-lipase 1-like,TU15067,XM_023159911.1,Shared
-lipid storage droplet,TU43755,QOJ44178,Shared
-lipid storage droplet,TU1097,XM_023157259.1,Shared
-lipid storage droplet,TU1096,XM_023157268.1,Shared
-vitellogenin,TU17167,XM_023160872.1,Shared
-platelet glycoprotein 4-like,TU44100,XM_023172665.1,Shared
-insulin-like growth factor-binding protein 7,TU32756,XM_023168088.1,Shared
-"phosphatidylinositol 4, 5-bisphosphate 3-kinase",TU603,XM_023174494.1,Shared
-equilibrative nucleoside transporter,TU29175,XM_023166476.1,Shared
-equilibrative nucleoside transporter 1,TU37531,XM_023170020.1,Male Unique
-pericentriolar material 1,TU15796,XM_023160219.1,Shared
-centrosome-associated protein 350-like,TU24297,XM_023164285.1,Shared
-tubulin,TU39876,XM_023170988.1,Shared
-microtubule-actin cross-linking factor,TU25072,XM_023164651.1,Shared
-microtubule-associated protein futsch,TU11025,XM_023157805.1,Shared
-dynein motor protein,TU8568,XM_023156674.1,Shared
-dynein motor protein,TU31063,XM_023167164.1,Shared
-dynein motor protein,TU9409,XM_023157076.1,Shared
-HSP83,TU18121,XM_023160972.1,Shared
-DnaJ chaperone,TU19231,XM_023161367.1,Shared
-DnaJ chaperone,TU24303,XM_023164301.1,Shared
-DnaJ chaperone,TU35434,XM_023169606.1,Shared
-DnaJ chaperone,TU12395,XM_023158712.1,Shared
-10 kDa mitochondrial HSP,TU8166,XM_023156590.1,Shared
-60 kDa mitochondrial HSP,TU19140,XP_018572799,Shared
-glutathione S-transferase,TU37837,XM_023170075.1,Shared
-headcase protein,TU45071,XP_023023996,Shared
-cytochrome P450,TU45221,not in reference,Shared
-cytochrome P450,TU45222,not in reference,Shared
-chorion protein-like,TU6875,XM_023156263.1,Female Unique
-hormone-sensitive lipase,TU18845,XM_023161842.1,Female Unique
-hepatocyte growth factor-regulated tyrosine kinase substrate,TU11872,XM_023158021.1,Female Unique
-vacuolar protein sorting-associated protein 29,TU21088,XM_023163020.1,Female Unique
-multivesicular body subunit 12B,TU18121,XM_023161042.1,Female Unique
-protein disulfide-isomerase A3,TU19040,XM_023161830.1,Female Unique
-heat shock 70 kDa protein,TU13651,XM_023159510.1,Female Unique
-isovaleryl-CoA dehydrogenase,TU18467,XM_023161271.1,Female Unique
-isovaleryl-CoA dehydrogenase,TU18468,XM_023161272.1,Female Unique
-short/branched chain specific acyl-CoA dehydrogenase,TU38251,XM_023170174.1,Female Unique
-methylcrotonoyl-CoA carboxylase,TU22110,XM_023163687.1,Female Unique
-protein timeless,TU17734,XP_023944838,Female Unique
-protein timeless,TU17630,XM_023160238.1,Female Unique
-protein timeless,TU41987,XM_023171952.1,Female Unique
-protein cycle,TU13581,XM_023159477.1,Female Unique
-period circadian protein,TU11176,XM_023157128.1,Female Unique
-period circadian protein,TU11179,XM_023157131.1,Female Unique
-couchpotato,TU8769,not in reference,Female Unique
-couchpotato,TU8773,not in reference,Female Unique
-couchpotato,TU8772,not in reference,Female Unique
-DNA ligase 1,TU15785,XM_023160688.1,Male Unique
-deoxynucleoside kinase,TU34574,XM_023169013.1,Male Unique
-equilibrative nucleoside transporter 1,TU37531,XM_023170020.1,Male Unique
-phospholipase C,TU26815,XM_023165847.1,Interaction
-phospholipase C,TU28916,XM_023166002.1,Interaction
-FoxO transcription factor,TU15600,XM_023160154.1,Interaction
-FoxO transcription factor,TU25378,XM_023164783.1,Interaction
-PI3K catalytic subunit,TU13141,XM_023158934.1,Interaction
-PI3K catalytic subunit,TU21302,XM_023162847.1,Interaction
-PDK1,TU14755,XM_023159721.1,Interaction
-heat shock protein 83,TU32473,XM_023168331.1,Interaction
-translation factor eIF4E,TU30056,XM_023166881.1,Interaction
-Hippo kinase,TU11375,XM_023157998.1,Interaction
-TGF-Œ≤ receptor type-1,TU16255,XM_023162761.1,Interaction
-zinc finger protein 32-like,TU40547,XM_023171268.1,Interaction
-protein yellow,TU29345,XM_023166554.1,Interaction
-monocarboxylate transporter 13,TU14952,XM_023159847.1,Interaction
-AP-1 complex sigma-2,TU18429,XM_023161459.1,Interaction
+﻿Manuscript_Transcript_Name,Full_Transcript_Name,Query_Transcript_ID,RefSeq_ID,DE_Category,Section
+juvenile hormone acid O-methyltransferase,"juvenile hormone acid O-methyltransferase-like, transcript variant X1",TU26715,XM_023165404.1,Shared,3.5.1.1
+juvenile hormone esterase,juvenile hormone esterase-like,TU43771,XM_023172544.1,Shared,3.5.1.1
+juvenile hormone esterase,juvenile hormone esterase-like,TU43784,XM_023172552.1,Shared,3.5.1.1
+juvenile hormone esterase,juvenile hormone esterase-like,TU33660,XM_023168438.1,Shared,3.5.1.1
+juvenile hormone esterase,juvenile hormone esterase-like,TU43124,XM_023172280.1,Shared,3.5.1.1
+juvenile hormone esterase,juvenile hormone esterase-like,TU2162,XM_023163290.1,Shared,3.5.1.1
+juvenile hormone esterase,juvenile hormone esterase-like,TU33661,XM_023168438.1,Shared,3.5.1.1
+apolipophorin,apolipophorins,TU6511,XM_023174635.1,Shared,3.5.1.1
+juvenile hormone epoxide hydrolase,juvenile hormone epoxide hydrolase 1-like,TU24457,XM_023164376.1,Shared,3.5.1.1
+ecdysone 20-monooxygenase,"ecdysone 20-monooxygenase, transcript variant X2",TU26829,XM_023165447.1,Shared,3.5.1.1
+ecdysone-induced protein 74EF,ecdysone-induced protein 74EF,TU28561,XM_023166209.1,Shared,3.5.1.1
+ecdysone-inducible protein E75,"ecdysone-inducible protein E75, transcript variant X2",TU1729,XM_023160901.1,Shared,3.5.1.1
+FOXO transcription factor,forkhead box protein O-like,TU18234,XM_023161366.1,Shared,3.5.1.1
+FOXO transcription factor,forkhead box protein O-like,TU7563,XM_023156134.1,Shared,3.5.1.1
+cytochrome b,cytochrome b,TU35976,APX40640,Shared,3.5.1.2
+cytochrome b,cytochrome b,TU35977,APX40640,Shared,3.5.1.2
+V-type proton ATPase subunit H,"V-type proton ATPase subunit H, transcript variant X1",TU3432,XM_023170356.1,Shared,3.5.1.2
+TCA cycle enzyme,malate dehydrogenase,TU1666,XM_023160459.1,Shared,3.5.1.2
+TCA cycle enzyme,isocitrate dehydrogenase [NAD] subunit gamma,TU33675,XM_023168446.1,Shared,3.5.1.2
+TCA cycle enzyme,isocitrate dehydrogenase [NADP] cytoplasmic,TU16467,XM_023160527.1,Shared,3.5.1.2
+TCA cycle enzyme,ATP-citrate synthase,TU21689,XM_023163006.1,Shared,3.5.1.2
+TCA cycle enzyme,ATP-citrate synthase,TU21690,XM_023163022.1,Shared,3.5.1.2
+TCA cycle enzyme,aconitate hydratase,TU40007,XM_023171040.1,Shared,3.5.1.2
+TCA cycle enzyme,succinate dehydrogenase [ubiquinone] iron-sulfur subunit,TU43700,XM_023172509.1,Shared,3.5.1.2
+TCA cycle enzyme,succinate dehydrogenase cytochrome b560 subunit,TU28836,XM_023166327.1,Shared,3.5.1.2
+pyruvate dehydrogenase,pyruvate dehydrogenase,TU9869,XM_023157283.1,Shared,3.5.1.2
+alcohol dehydrogenase,"alcohol dehydrogenase [NADP(+)]-like, transcript variant X2",TU10050,XM_023157370.1,Shared,3.5.1.2
+phosphoenolpyruvate carboxykinase,"phosphoenolpyruvate carboxykinase [GTP]-like, transcript variant X1",TU38804,XM_023170528.1,Shared,3.5.1.2
+trehalase,"trehalase-like, transcript variant X2",TU2522,XM_023165148.1,Shared,3.5.1.3
+hydroxyacyl-CoA dehydrogenase,3-hydroxyacyl-CoA dehydrogenase type-2,TU24984,XM_023164600.1,Shared,3.5.1.3
+acyl-CoA dehydrogenase,"probable medium-chain specific acyl-CoA dehydrogenase, mitochondrial",TU14367,XM_023159561.1,Shared,3.5.1.3
+acyl-CoA Œî11 desaturase,acyl-CoA Delta(11) desaturase-like,TU21577,XM_023162963.1,Shared,3.5.1.3
+lipase 1-like,lipase 1-like,TU2390,XM_023164756.1,Shared,3.5.1.3
+lipase 3-like,lipase 3-like,TU23989,XM_023164124.1,Shared,3.5.1.3
+lipase 1-like,lipase 1-like,TU15067,XM_023159911.1,Shared,3.5.1.3
+lipid storage droplet,"lipid storage droplets surface-binding protein 2-like, transcript variant X3",TU1096,XM_023157268.1,Shared,3.5.1.3
+lipid storage droplet,"lipid storage droplets surface-binding protein 2-like, transcript variant X2",TU1097,XM_023157259.1,Shared,3.5.1.3
+vitellogenin,vitellogenin-like,TU17167,XM_023160872.1,Shared,3.5.1.3
+platelet glycoprotein 4,platelet glycoprotein 4-like,TU44100,XM_023172665.1,Shared,3.5.1.3
+insulin-like growth factor-binding protein 7,insulin-like growth factor-binding protein 7,TU32756,XM_023168088.1,Shared,3.5.1.3
+PI3K isoform,"phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",TU603,XM_023174494.1,Shared,3.5.1.3
+phospholipase C,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase, transcript variant X3",TU5864,XM_023174271.1,Shared,3.5.1.3
+hypoxia-inducible factor 1-alpha,"hypoxia-inducible factor 1-alpha-like, transcript variant X2",TU24219,XM_023164233.1,Shared,3.5.1.4
+protein lethal(2) essential for life,protein lethal(2)essential for life-like,TU64,XM_023173699.1,Shared,3.5.1.4
+pericentriolar material 1,"pericentriolar material 1 protein, transcript variant X1",TU15796,XM_023160219.1,Shared,3.5.1.4
+pericentriolar material 1,"pericentriolar material 1 protein, transcript variant X3",TU15798,XM_023160221.1,Shared,3.5.1.4
+pericentriolar material 1,"pericentriolar material 1 protein, transcript variant X2",TU15799,XM_023160220.1,Shared,3.5.1.4
+pericentriolar material 1,"pericentriolar material 1 protein, transcript variant X2",TU15800,XM_023160220.1,Shared,3.5.1.4
+centrosome-associated protein 350-like,centrosome-associated protein 350-like,TU24298,XM_023164285.1,Shared,3.5.1.4
+tubulin,tubulin beta-1 chain,TU39876,XM_023170988.1,Shared,3.5.1.4
+tubulin,tubulin-specific chaperone C,TU1230,XM_023158085.1,Shared,3.5.1.4
+tubulin,gamma-tubulin complex component 5,TU14587,XM_023159667.1,Shared,3.5.1.4
+microtubule-actin cross-linking factor,microtubule-actin cross-linking factor 1,TU25077,XM_023164651.1,Shared,3.5.1.4
+microtubule-actin cross-linking factor,microtubule-actin cross-linking factor 1,TU25084,XM_023164651.1,Shared,3.5.1.4
+microtubule-actin cross-linking factor,microtubule-actin cross-linking factor 1,TU25073,XM_023164651.1,Shared,3.5.1.4
+microtubule-associated protein futsch,microtubule-associated protein futsch,TU11025,XM_023157805.1,Shared,3.5.1.4
+dynein motor protein,dynein light chain roadblock-type 2,TU8568,XM_023156674.1,Shared,3.5.1.4
+dynein motor protein,"dynein heavy chain, cytoplasmic",TU9409,XM_023157076.1,Shared,3.5.1.4
+dynein motor protein,dynein light chain Tctex-type,TU30639,XM_023167164.1,Shared,3.5.1.4
+HSP83,heat shock protein 83,TU17424,XM_023160972.1,Shared,3.5.1.4
+DnaJ chaperone,"dnaJ homolog subfamily C member 8, transcript variant X1",TU18236,XM_023161367.1,Shared,3.5.1.4
+DnaJ chaperone,dnaJ homolog subfamily C member 7,TU24330,XM_023164301.1,Shared,3.5.1.4
+DnaJ chaperone,dnaJ homolog subfamily C member 2,TU36497,XM_023169606.1,Shared,3.5.1.4
+DnaJ chaperone,dnaJ homolog subfamily C member 10-like,TU12762,XM_023158712.1,Shared,3.5.1.4
+10 kDa mitochondrial HSP,"10 kDa heat shock protein, mitochondrial-like",TU8441,XM_023156590.1,Shared,3.5.1.4
+60 kDa mitochondrial HSP,"60 kDa heat shock protein, mitochondrial",TU2118,XP_018572799,Shared,3.5.1.4
+glutathione S-transferase,glutathione S-transferase 1-like,TU41429,XM_023171602.1,Shared,3.5.1.4
+glutathione S-transferase,glutathione S-transferase 1-like,TU3649,XM_023171444.1,Shared,3.5.1.4
+glutathione S-transferase,glutathione S-transferase 1-like,TU3641,XM_023171435.1,Shared,3.5.1.4
+glutathione S-transferase,glutathione S-transferase 1-like,TU3642,XM_023171435.1,Shared,3.5.1.4
+glutathione S-transferase,"glutathione S-transferase D7-like, transcript variant X1",TU3643,XM_023171412.1,Shared,3.5.1.4
+glutathione S-transferase,glutathione S-transferase-like,TU40237,XM_023171141.1,Shared,3.5.1.4
+glutathione S-transferase,glutathione S-transferase-like,TU37686,XM_023170075.1,Shared,3.5.1.4
+headcase protein,headcase protein,TU31180,XP_023023996,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4C1-like,TU33967,AGT57836,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 9e2-like,TU18704,XP_023017890,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4c3-like,TU44798,XM_023172927.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4d2-like,TU1817,KAG5891040,Shared,3.5.1.4
+cytochrome P450,"cytochrome P450 6a2-like, transcript variant X2",TU24756,XM_023164506.1,Shared,3.5.1.4
+cytochrome P450,"cytochrome P450 9e2-like, transcript variant X1",TU6642,XM_023174711.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 9e2-like,TU19701,XM_023162122.1,Shared,3.5.1.4
+cytochrome P450,"cytochrome P450 9e2-like, transcript variant X2",TU6644,XM_023174712.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 6a8-like,TU31681,XM_023167571.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4d8-like,TU1818,XM_023161362.1,Shared,3.5.1.4
+cytochrome P450,probable cytochrome P450 6a13,TU35190,XM_023169053.1,Shared,3.5.1.4
+cytochrome P450,"probable cytochrome P450 12a5, mitochondrial",TU39511,XM_023170847.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4C1-like,TU10831,XM_023157739.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 6a8-like,TU31680,XM_023167570.1,Shared,3.5.1.4
+cytochrome P450,"cytochrome P450 9e2-like, transcript variant X2",TU26703,XM_023165395.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 9e2-like,TU12883,XM_023158796.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4c3-like,TU11485,XM_023158052.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 9e2-like,TU12888,XM_023158796.1,Shared,3.5.1.4
+cytochrome P450,cytochrome P450 4d2-like,TU15462,XM_023160082.1,Shared,3.5.1.4
+cytochrome P450,"cytochrome P450 9e2-like, transcript variant X2",TU26702,XM_023165395.1,Shared,3.5.1.4
+chorion class B protein L12-like,chorion class B protein L12-like,TU12200,XM_023158437.1,Female Unique,3.5.2.1
+hormone-sensitive lipase,hormone-sensitive lipase,TU19213,XM_023161842.1,Female Unique,3.5.2.1
+fatty acid synthase,fatty acid synthase-like,TU8478,XM_023156620.1,Female Unique,3.5.2.1
+fatty acid synthase,fatty acid synthase-like,TU16825,XM_023160698.1,Female Unique,3.5.2.1
+fatty acid synthase,fatty acid synthase-like,TU11125,XM_023157858.1,Female Unique,3.5.2.1
+glycogen synthase,glycogen [starch] synthase,TU14080,XM_023159434.1,Female Unique,3.5.2.1
+acetyl-CoA carboxylase,acetyl-CoA carboxylase,TU15929,XM_023160286.1,Female Unique,3.5.2.1
+RAC serine/threonine-protein kinase,"RAC serine/threonine-protein kinase, transcript variant X3",TU19270,XM_023161889.1,Female Unique,3.5.2.1
+MAP kinase-interacting serine/threonine-protein kinase 1 ,"MAP kinase-interacting serine/threonine-protein kinase 1, transcript variant X1",TU23886,XM_023164095.1,Female Unique,3.5.2.1
+JH esterase ,juvenile hormone esterase-like,TU22523,XM_023163398.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU43890,XM_023172590.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU18497,XM_023161501.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU8642,XM_023156698.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,"juvenile hormone acid O-methyltransferase-like, transcript variant X3",TU26713,XM_023165402.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU26718,XM_023165406.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU26719,XM_023165407.1,Female Unique,3.5.2.1
+JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU34251,XM_023168689.1,Female Unique,3.5.2.1
+hepatocyte growth factor-regulated tyrosine kinase substrate,hepatocyte growth factor-regulated tyrosine kinase substrate,TU11417,XM_023158021.1,Female Unique,3.5.2.2
+vacuolar protein sorting-associated protein 29,"vacuolar protein sorting-associated protein 29, transcript variant X2",TU21680,XM_023163020.1,Female Unique,3.5.2.2
+multivesicular body subunit 12B,"multivesicular body subunit 12B, transcript variant X2",TU1766,XM_023161042.1,Female Unique,3.5.2.2
+protein disulfide-isomerase A3,protein disulfide-isomerase A3-like,TU1890,XM_023161830.1,Female Unique,3.5.2.2
+heat shock 70 kDa protein,"heat shock 70 kDa protein cognate 3, transcript variant X1",TU14281,XM_023159510.1,Female Unique,3.5.2.2
+heat shock 70 kDa protein,heat shock 70 kDa protein-like,TU41844,XM_023171771.1,Female Unique,3.5.2.2
+heat shock 70 kDa protein,heat shock 70 kDa protein-like,TU27966,XM_023165938.1,Female Unique,3.5.2.2
+heat shock 70 kDa protein,heat shock 70 kDa protein-like,TU25756,XM_023164941.1,Female Unique,3.5.2.2
+protein timeless,protein timeless isoform X1,TU43165,XP_023944838,Female Unique,3.5.2.4
+protein timeless,protein timeless homolog,TU15792,XM_023160238.1,Female Unique,3.5.2.4
+protein timeless,"protein timeless, transcript variant X3",TU42332,XM_023171952.1,Female Unique,3.5.2.4
+protein timeless,"protein timeless, transcript variant X2",TU42333,XM_023171951.1,Female Unique,3.5.2.4
+protein cycle,"protein cycle, transcript variant X1",TU14179,XM_023159477.1,Female Unique,3.5.2.4
+protein cycle,"protein cycle, transcript variant X1",TU14178,XM_023159477.1,Female Unique,3.5.2.4
+protein cycle,"protein cycle, transcript variant X1",TU14181,XM_023159477.1,Female Unique,3.5.2.4
+period circadian protein,"period circadian protein, transcript variant X1",TU9595,XM_023157128.1,Female Unique,3.5.2.4
+period circadian protein,"period circadian protein, transcript variant X4",TU9593,XM_023157131.1,Female Unique,3.5.2.4
+couchpotato,"protein couch potato, transcript variant X2",TU8769,XM_023156779.1,Female Unique,3.5.2.5
+couchpotato,"protein couch potato, transcript variant X2",TU8773,XM_023156779.1,Female Unique,3.5.2.5
+couchpotato,"protein couch potato, transcript variant X2",TU8772,XM_023156779.1,Female Unique,3.5.2.5
+protein Gawky,"protein Gawky, transcript variant X2",TU29905,XM_023166810.1,Male_Unique,3.5.3.1
+protein Smaug,protein Smaug homolog 1,TU15074,XM_023159907.1,Male_Unique,3.5.3.1
+protein IMPACT,"protein IMPACT homolog, transcript variant X2",TU24974,XM_023164599.1,Male_Unique,3.5.3.1
+eIF-2α kinase 1-like,eukaryotic translation initiation factor 2-alpha kinase 1-like,TU14392,XM_023159579.1,Male_Unique,3.5.3.1
+eIF-3 subunit J-like,eukaryotic translation initiation factor 3 subunit J-like,TU29355,XM_023166563.1,Male_Unique,3.5.3.1
+39S ribosomal protein L47 ,"39S ribosomal protein L47,  mitochondrial",TU41479,XM_023171622.1,Male_Unique,3.5.3.1
+cytoplasmic 30S ribosomal protein S11 ,30S ribosomal protein S11,TU842,XM_023156548.1,Male_Unique,3.5.3.1
+ribosomal protein S6 kinase alpha-5 ,ribosomal protein S6 kinase alpha-5-like,TU27807,XM_023165888.1,Male_Unique,3.5.3.1
+elongation of very long chain fatty acids protein 6,elongation of very long chain fatty acids protein 6,TU10592,XM_023157634.1,Male_Unique,3.5.3.1
+acyl-CoA Delta(11) desaturase,acyl-CoA Delta(11) desaturase-like,TU21576,XM_023162963.1,Male_Unique,3.5.3.1
+elongation of very long chain fatty acids protein 4,"elongation of very long chain fatty acids protein 4-like, transcript variant X1",TU26499,XM_023165310.1,Male_Unique,3.5.3.1
+acetyl-CoA carboxylase,acetyl-CoA carboxylase,TU15923,XM_023160286.1,Male_Unique,3.5.3.1
+phospholipid-transporting ATPase IA ,"probable phospholipid-transporting ATPase IA, transcript variant X6",TU30233,XM_023166978.1,Male_Unique,3.5.3.1
+phospholipid scramblase 2 ,"phospholipid scramblase 2-like, transcript variant X1",TU16662,XM_023160608.1,Male_Unique,3.5.3.1
+Synaptic vesicle membrane protein VAT-1,synaptic vesicle membrane protein VAT-1 homolog-like,TU20746,XM_023162617.1,Male_Unique,3.5.3.2
+VAT-1,synaptic vesicle membrane protein VAT-1 homolog,TU38088,XM_023170240.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein,"neuronal PAS domain-containing protein 2-like, transcript variant X3",TU3673,XM_023171595.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein,"neuronal PAS domain-containing protein 2-like, transcript variant X1",TU3674,XM_023171582.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein,"neuronal PAS domain-containing protein 2-like, transcript variant X1",TU3680,XM_023171582.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein ,"neuronal PAS domain-containing protein 2-like, transcript variant X1",TU3681,XM_023171582.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein,"neuronal PAS domain-containing protein 2-like, transcript variant X5",TU3685,XM_023171610.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein,"neuronal PAS domain-containing protein 2-like, transcript variant X1",TU3687,XM_023171582.1,Male_Unique,3.5.3.2
+neuronal PAS domain-containing protein,neuronal PAS domain-containing protein 4,TU11370,XM_023157994.1,Male_Unique,3.5.3.2
+bromodomain testis-specific protein,bromodomain testis-specific protein-like,TU20337,XM_023162437.1,Male_Unique,3.5.3.3
+bromodomain testis-specific protein,bromodomain testis-specific protein-like,TU20338,XM_023162437.1,Male_Unique,3.5.3.3
+motile sperm domain-containing protein 1,motile sperm domain-containing protein 1-like,TU30468,XM_023167101.1,Male_Unique,3.5.3.3
+Hippo kinase,serine/threonine-protein kinase hippo-like,TU11375,XM_023157998.1,Interaction,3.5.4.1
+TGF-B receptor type-1,"TGF-beta receptor type-1, transcript variant X1",TU16255,XM_023160423.1,Interaction,3.5.4.1
+TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,TU34737,XM_023168883.1,Interaction,3.5.4.1
+Broad-complex core protein ,"broad-complex core protein, transcript variant X10",TU26908,XM_023165479.1,Interaction,3.5.4.1
+DNA ligase 1,DNA ligase 1-like,TU27627,XM_023165825.1,Interaction,3.5.4.2
+DNA ligase 1,DNA ligase 1-like,TU27631,XM_023165825.1,Interaction,3.5.4.2
+deoxynucleoside kinase,deoxynucleoside kinase-like,TU6818,XM_023155743.1,Interaction,3.5.4.2
+equilibrative nucleoside transporter 1,equilibrative nucleoside transporter 1-like,TU21815,XM_023163075.1,Interaction,3.5.4.2
+mediator of DNA damage checkpoint protein 1 ,mediator of DNA damage checkpoint protein 1-like,TU25661,XM_023164907.1,Interaction,3.5.4.2
+zinc finger protein,zinc finger CCCH-type with G patch domain-containing protein,TU7272,XM_023155972.1,Interaction,3.5.4.3
+zinc finger protein,zinc finger protein 271-like,TU16154,XM_023160391.1,Interaction,3.5.4.3
+zinc finger protein,zinc finger protein 271-like,TU42873,XP_028127933,Interaction,3.5.4.3
+zinc finger protein,zinc finger protein 32-like,TU8762,XM_023156771.1,Interaction,3.5.4.3
+zinc finger protein,zinc finger protein 385A-like,TU22124,XM_023163217.1,Interaction,3.5.4.3
+zinc finger protein,"zinc finger protein 732-like,  transcript variant X1",TU14406,XM_023159575.1,Interaction,3.5.4.3
+zinc finger protein,zinc finger protein OZF-like,TU9528,XM_023157107.1,Interaction,3.5.4.3
+monocarboxylate transporter 13,monocarboxylate transporter 13,TU7317,XM_023155998.1,Interaction,3.5.4.3
+facilitated trehalose transporter,"facilitated trehalose transporter Tret1-like, transcript variant X2",TU19295,XM_023161905.1,Interaction,3.5.4.3
+facilitated trehalose transporter,facilitated trehalose transporter Tret1-like,TU6794,XM_023155732.1,Interaction,3.5.4.3
+facilitated trehalose transporter,facilitated trehalose transporter Tret1-like,TU35757,XM_023169283.1,Interaction,3.5.4.3
+AP-1 complex subunit sigma-2,AP-1 complex subunit sigma-2,TU1979,XM_023162380.1,Interaction,3.5.4.3

@@ -198,7 +198,7 @@ ggsave(
 ggsave(
   "PCA_Samples_Plot.pdf",
   plot = sample_pca,
-  width = 100,
+  width = 95,
   height = 100,
   units = "mm",
   path = './02_Multivariate_Analysis/'
@@ -217,6 +217,33 @@ PC12_contrib <- facto_summarize(pca,
   filter(contrib > 0.2)
 
 PC12_contrib_count <- nrow(PC12_contrib)
+
+# K-means Cluster Optimization (Elbow Method) ----------------------------
+
+# Determine optimal number of clusters using within-cluster sum of squares
+set.seed(123)
+(elbow_plot <- fviz_nbclust(
+  pca_var$coord,
+  kmeans,
+  method = "wss",
+  k.max = 15,
+  nstart = 25,
+  iter.max = 50
+) +
+    ggtitle("") +
+    xlab("Number of Clusters (K)") +
+    ylab("Total Within-Cluster Sum of Squares") +
+    theme_cpb +
+    geom_vline(xintercept = 4, linetype = 2, color = "red", alpha = 0.6))
+
+ggsave(
+  "PCA_Elbow_Method.pdf",
+  plot = elbow_plot,
+  width = 90,
+  height = 90,
+  units = "mm",
+  path = './02_Multivariate_Analysis/'
+)
 
 # K-means clustering of gene loadings in PC space
 set.seed(123)
@@ -271,34 +298,7 @@ ggsave(
   path = './02_Multivariate_Analysis/'
 )
 
-# Publication Figure ------------------------------------------------------
 
-(
-  pca_figure <- plot_grid(
-    sample_pca,
-    var_cluster_plot,
-    align = "hv",
-    axis = "tblr",
-    labels = c("A.", "B."),
-    label_size = 12,
-    label_fontface = "bold",
-    hjust = -1,
-    vjust = 2.5,
-    ncol = 2,
-    rel_widths = c(1, 1),
-    scale = 0.95
-  )
-)
-
-ggsave(
-  "PCA_Figure_Publication.pdf",
-  plot = pca_figure,
-  width = 180,
-  height = 120,
-  units = "mm",
-  dpi = 300,
-  path = './02_Multivariate_Analysis/'
-)
 
 # Export Cluster Results --------------------------------------------------
 

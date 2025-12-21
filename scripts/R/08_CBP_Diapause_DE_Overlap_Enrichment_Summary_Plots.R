@@ -53,8 +53,8 @@ walk(output_dirs, ~ if (!dir.exists(.x)) dir.create(.x, recursive = TRUE))
 
 # Standardized color palette for comparisons
 comparison_colors <- c(
-  "Female" = "#009E73",
-  "Male" = "#00AFBB", 
+  "Female" = "#D55E00",
+  "Male" = "#0072B2", 
   "Interaction" = "#CC79A7",
   "Overlap" = "#000000"
 )

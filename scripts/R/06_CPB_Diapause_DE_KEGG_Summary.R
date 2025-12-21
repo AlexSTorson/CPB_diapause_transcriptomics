@@ -28,8 +28,8 @@ library(tidyverse)
 
 # Standardized color palettes
 comparison_colors <- c(
-  "Females" = "#009E73",
-  "Males" = "#00AFBB", 
+  "Females" = "#D55E00",
+  "Males" = "#0072B2", 
   "Interaction" = "#CC79A7"
 )
 
