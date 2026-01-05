@@ -17,15 +17,15 @@
 #
 # Input files:
 #   - 07_DE_Overlaps/KEGG_Enrichments/Lists/*/enrichment_results.csv
-#   - 07_DE_Overlaps/GO_Enrichments/*_BP_Encrichment.csv
 #   - 08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/Master_KEGG_Descriptions_SH.csv
+#   - 07_DE_Overlaps/GO_Enrichments/*_BP_Encrichment.csv
 #   - 08_DE_Overlap_Enrichment_Summary/GO_Enrichments/DE_Overlap_GO_SH_Terms.csv
 #
 # Output files:
 #   - 08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/DE_Overlap_KEGG_Enrichment_Plot.pdf
 #   - 08_DE_Overlap_Enrichment_Summary/GO_Enrichments/DE_Overlap_GO_Enrichment_Plot.pdf
-#   - 08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/DE_Overlap_KEGG_Enrichment_Chord_Plot.pdf
 #   - 08_DE_Overlap_Enrichment_Summary/GO_Enrichments/DE_Overlap_GO_Enrichment_Chord_Plot.pdf
+#   - (Optional: DE_Overlap_KEGG_Enrichment_Chord_Plot.pdf - commented out)
 #
 ################################################################################
 
@@ -76,8 +76,8 @@ theme_cpb <- theme_bw() +
 # KEGG Data Loading and Processing -----------------------------------------
 
 # Load KEGG enrichment results from overlap analyses
-male_kegg <- read.csv("./07_DE_Overlaps/KEGG_Enrichments/Lists/Male_Unique/Male_Unique_enrichment_results.csv") %>%
-  mutate(comp = "Male")
+# male_kegg <- read.csv("./07_DE_Overlaps/KEGG_Enrichments/Lists/Male_Unique/Male_Unique_enrichment_results.csv") %>%
+#   mutate(comp = "Male")
 
 female_kegg <- read.csv("./07_DE_Overlaps/KEGG_Enrichments/Lists/Female_Unique/Female_Unique_enrichment_results.csv") %>%
   mutate(comp = "Female")
@@ -86,7 +86,7 @@ overlap_kegg <- read.csv("./07_DE_Overlaps/KEGG_Enrichments/Lists/Shared_No_Inte
   mutate(comp = "Overlap")
 
 # Combine KEGG datasets
-kegg_df <- bind_rows(male_kegg, female_kegg, overlap_kegg)
+kegg_df <- bind_rows(female_kegg, overlap_kegg)
 
 # Save combined KEGG results
 write.csv(kegg_df, 
@@ -140,29 +140,7 @@ go_df_filtered <- go_df %>%
 # Option 2: Use all GO terms (uncomment to use instead of level filtering)
 # go_df_filtered <- go_df
 
-# KEGG Bubble Plot --------------------------------------------------------
-
-# Add short descriptions for cleaner visualization
-kegg_df_annotated <- kegg_df %>%
-  left_join(master_kegg_descriptions, by = "ID") %>%
-  mutate(label_with_id = paste0(Sh_description, " (", ID, ")"))
-
-(kegg_bubble_plot <- ggplot(kegg_df_annotated, aes(y = label_with_id, x = comp)) +
-    theme_cpb +
-    theme(
-      legend.position = "right", 
-      legend.background = element_rect(fill = "white", color = "black"),
-      legend.margin = margin(5, 5, 5, 5)
-    ) +
-    geom_point(aes(size = -log(qvalue), color = comp), alpha = 0.75) +
-    scale_color_manual(values = comparison_colors, guide = "none") +
-    scale_size_continuous(name = "-log(q-value)") +
-    labs(y = "KEGG pathway", x = "Comparison"))
-
-# Save KEGG bubble plot
-ggsave("./08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/DE_Overlap_KEGG_Enrichment_Plot.pdf",
-       plot = kegg_bubble_plot,
-       width = 6, height = 12)
+# GO Enrichment Plots ----------------------------------------------------
 
 # GO Term Redundancy Reduction --------------------------------------------
 
@@ -207,7 +185,7 @@ go_df_annotated <- go_df_slimmed %>%
   filter(!is.na(Sh_term)) %>%
   mutate(label_with_id = paste0(Sh_term, " (", GO.ID, ")"))
 
-# GO Bubble Plot with Short Terms -----------------------------------------
+# GO Bubble Plot ----------------------------------------------------------
 
 (go_bubble_plot <- ggplot(go_df_annotated, aes(y = label_with_id, x = comp)) +
    theme_cpb +
@@ -227,37 +205,7 @@ ggsave("./08_DE_Overlap_Enrichment_Summary/GO_Enrichments/DE_Overlap_GO_Enrichme
        plot = go_bubble_plot,
        width = 8, height = 12)
 
-# Chord Plot Data Preparation ---------------------------------------------
-
-# Filter KEGG pathways to remove vertebrate-specific terms
-vertebrate_kegg_keywords <- c(
-  "phototransduction", "phototrans",
-  "parathyroid", "PTH", 
-  "aldosterone", "aldosterone synth",
-  "calcium reabsorption", "calcium reabsorp", "reabsorption", "reabsorp",
-  "collecting duct", "acid secretion", "acid secret",
-  "bile secretion", "bile secret",
-  "pancreatic secretion", "pancreatic secret",
-  "renin secretion", "renin secret", 
-  "adrenergic signaling", "adrenergic sig",
-  "cardiac muscle contraction", "cardiac contract", "cardiac contraction",
-  "thyroid hormone", "thyroid",
-  "endocrine.*calcium",
-  "vertebrate", "mammalian", "human"
-)
-
-# Filter vertebrate-specific KEGG pathways
-vertebrate_kegg_pattern <- paste(vertebrate_kegg_keywords, collapse = "|")
-kegg_enrich_filtered <- kegg_df %>%
-  dplyr::select(comp, Description) %>%
-  filter(!grepl(vertebrate_kegg_pattern, Description, ignore.case = TRUE))
-
-# Add short descriptions for chord plot
-kegg_enrich <- kegg_enrich_filtered %>%
-  left_join(master_kegg_descriptions, by = "Description") %>%
-  dplyr::select(comp, Sh_description) %>%
-  filter(!is.na(Sh_description)) %>%
-  distinct()
+# GO Chord Plot Data Preparation ------------------------------------------
 
 # Filter GO terms to remove vertebrate-specific terms
 vertebrate_go_keywords <- c(
@@ -298,48 +246,12 @@ go_enrich <- go_enrich_filtered %>%
   filter(!is.na(Sh_term)) %>%
   distinct()
 
-# Chord Plot Color Setup --------------------------------------------------
+# GO Chord Plot Color Setup -----------------------------------------------
 
-# Create color palettes for chord plots
-kegg_othercol <- structure(rep("grey50", length(unique(kegg_enrich$Sh_description))))
-names(kegg_othercol) <- unique(kegg_enrich$Sh_description)
-kegg_grid.col <- c(comparison_colors, kegg_othercol)
-
+# Create color palette for GO chord plot
 go_othercol <- structure(rep("grey60", length(unique(go_enrich$Sh_term))))
 names(go_othercol) <- unique(go_enrich$Sh_term)
 go_grid.col <- c(comparison_colors, go_othercol)
-
-# KEGG Chord Plot ---------------------------------------------------------
-
-pdf("./08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/DE_Overlap_KEGG_Enrichment_Chord_Plot.pdf",
-    width = 7.09, height = 7.09)
-
-circos.par(start.degree = 270, 
-           cell.padding = c(0, 0, 0, 0), 
-           canvas.xlim = c(-1.5, 1.5), 
-           canvas.ylim = c(-1.5, 1.5))
-
-chordDiagram(kegg_enrich,
-             big.gap = 5,
-             small.gap = 2.2,
-             annotationTrack = c("grid"),
-             grid.col = kegg_grid.col,
-             preAllocateTracks = list(track.height = 0.15))
-
-circos.track(track.index = 1,
-             panel.fun = function(x, y) {
-               circos.text(CELL_META$xcenter,
-                           CELL_META$ylim[1],
-                           CELL_META$sector.index,
-                           facing = "clockwise",
-                           niceFacing = TRUE,
-                           adj = c(0, 0.5),
-                           cex = 0.7)
-             },
-             bg.border = NA)
-
-circos.clear()
-dev.off()
 
 # GO Chord Plot -----------------------------------------------------------
 
@@ -372,6 +284,106 @@ circos.track(track.index = 1,
 
 circos.clear()
 dev.off()
+
+# KEGG Enrichment Plots ---------------------------------------------------
+
+# KEGG Bubble Plot --------------------------------------------------------
+
+# Add short descriptions for cleaner visualization
+kegg_df_annotated <- kegg_df %>%
+  left_join(master_kegg_descriptions, by = "ID") %>%
+  mutate(label_with_id = paste0(Sh_description, " (", ID, ")"))
+
+(kegg_bubble_plot <- ggplot(kegg_df_annotated, aes(y = label_with_id, x = comp)) +
+    theme_cpb +
+    theme(
+      legend.position = "right", 
+      legend.background = element_rect(fill = "white", color = "black"),
+      legend.margin = margin(5, 5, 5, 5)
+    ) +
+    geom_point(aes(size = -log(qvalue), color = comp), alpha = 0.75) +
+    scale_color_manual(values = comparison_colors, guide = "none") +
+    scale_size_continuous(name = "-log(q-value)") +
+    labs(y = "KEGG pathway", x = "Comparison"))
+
+# Save KEGG bubble plot
+ggsave("./08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/DE_Overlap_KEGG_Enrichment_Plot.pdf",
+       plot = kegg_bubble_plot,
+       width = 6, height = 12)
+
+# KEGG Chord Plot Data Preparation ----------------------------------------
+
+# # Filter KEGG pathways to remove vertebrate-specific terms
+# vertebrate_kegg_keywords <- c(
+#   "phototransduction", "phototrans",
+#   "parathyroid", "PTH", 
+#   "aldosterone", "aldosterone synth",
+#   "calcium reabsorption", "calcium reabsorp", "reabsorption", "reabsorp",
+#   "collecting duct", "acid secretion", "acid secret",
+#   "bile secretion", "bile secret",
+#   "pancreatic secretion", "pancreatic secret",
+#   "renin secretion", "renin secret", 
+#   "adrenergic signaling", "adrenergic sig",
+#   "cardiac muscle contraction", "cardiac contract", "cardiac contraction",
+#   "thyroid hormone", "thyroid",
+#   "endocrine.*calcium",
+#   "vertebrate", "mammalian", "human"
+# )
+# 
+# # Filter vertebrate-specific KEGG pathways
+# vertebrate_kegg_pattern <- paste(vertebrate_kegg_keywords, collapse = "|")
+# kegg_enrich_filtered <- kegg_df %>%
+#   dplyr::select(comp, Description) %>%
+#   filter(!grepl(vertebrate_kegg_pattern, Description, ignore.case = TRUE))
+# 
+# # Add short descriptions for chord plot
+# kegg_enrich <- kegg_enrich_filtered %>%
+#   left_join(master_kegg_descriptions, by = "Description") %>%
+#   dplyr::select(comp, Sh_description) %>%
+#   filter(!is.na(Sh_description)) %>%
+#   distinct()
+
+# KEGG Chord Plot Color Setup --------------------------------------------
+
+# # Create color palette for KEGG chord plot
+# kegg_othercol <- structure(rep("grey50", length(unique(kegg_enrich$Sh_description))))
+# names(kegg_othercol) <- unique(kegg_enrich$Sh_description)
+# kegg_grid.col <- c(comparison_colors, kegg_othercol)
+
+# KEGG Chord Plot ---------------------------------------------------------
+
+# # KEGG chord plot is commented out because with only two comparisons
+# # (Female and Overlap), the chord plot format is not informative
+# 
+# pdf("./08_DE_Overlap_Enrichment_Summary/KEGG_Enrichments/DE_Overlap_KEGG_Enrichment_Chord_Plot.pdf",
+#     width = 7.09, height = 7.09)
+# 
+# circos.par(start.degree = 270, 
+#            cell.padding = c(0, 0, 0, 0), 
+#            canvas.xlim = c(-1.5, 1.5), 
+#            canvas.ylim = c(-1.5, 1.5))
+# 
+# chordDiagram(kegg_enrich,
+#              big.gap = 5,
+#              small.gap = 2.2,
+#              annotationTrack = c("grid"),
+#              grid.col = kegg_grid.col,
+#              preAllocateTracks = list(track.height = 0.15))
+# 
+# circos.track(track.index = 1,
+#              panel.fun = function(x, y) {
+#                circos.text(CELL_META$xcenter,
+#                            CELL_META$ylim[1],
+#                            CELL_META$sector.index,
+#                            facing = "clockwise",
+#                            niceFacing = TRUE,
+#                            adj = c(0, 0.5),
+#                            cex = 0.7)
+#              },
+#              bg.border = NA)
+# 
+# circos.clear()
+# dev.off()
 
 # Session Info ------------------------------------------------------------
 

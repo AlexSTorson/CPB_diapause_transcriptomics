@@ -10,8 +10,7 @@
 # Description: Analyzes overlapping differentially expressed genes between male
 #              and female CPB during diapause, creates Euler diagrams, and
 #              performs GO and KEGG pathway enrichment analyses for biologically
-#              meaningful gene categories. SIMPLIFIED VERSION with corrected
-#              KEGG analysis data preparation.
+#              meaningful gene categories. 
 #
 # Dependencies: Differential expression results from DESeq2.R
 #
@@ -428,6 +427,13 @@ kegg.gs_names <- names(kegg.gs)
 kegg.gs_names <- as.data.frame(gsub(" .*$", "", kegg.gs_names))
 names(kegg.gs_names) <- "ID"
 
+# Define universe for enrichments
+universe_kegg <- kegg_genes %>%
+  pull(kegg_id) %>%
+  unique() %>%
+  as.character()
+
+
 # KEGG Enrichment Analysis Function ---------------------------------------
 
 perform_kegg_analysis <- function(de_df, label) {
@@ -483,10 +489,10 @@ perform_kegg_analysis <- function(de_df, label) {
   de_pathway_ids <- gsub(" .*$", "", de_pathway_names_full)
   de_pathway_names <- gsub("^.*? ", "", de_pathway_names_full)
   
-  # Calculate fold change limit for visualization
+  # Calculate fold change limit for visualization (improved)
   all_fold_changes <- de_kegg$log2FoldChange
-  max_fc <- quantile(abs(all_fold_changes), 0.95, na.rm = TRUE)
-  fc_limit <- ceiling(max_fc)
+  max_fc <- quantile(abs(all_fold_changes), 0.90, na.rm = TRUE)
+  fc_limit <- min(ceiling(max_fc), 3)  # Cap at log2FC of 3 (8-fold change)
   
   # Create absolute paths for output directories
   plot_dir_ko <- file.path(original_wd, "07_DE_Overlaps/KEGG_Enrichments/Mapping_Plots_KO_IDs", label)
@@ -571,14 +577,15 @@ perform_kegg_analysis <- function(de_df, label) {
   # Perform enrichment analysis
   enrich <- enrichKEGG(
     gene = de_kegg_chr,
+    universe = universe_kegg,
     organism = "ko",
     keyType = 'kegg',
-    pvalueCutoff = 0.01
+    pvalueCutoff = 0.05
   )
   
   # Extract and filter enrichment results
   enrich_df <- data.frame(enrich@result) %>%
-    filter(qvalue <= 0.01) %>%
+    filter(p.adjust <= 0.05) %>%
     subset(ID %in% kegg.gs_names$ID) %>%  # Remove disease pathways
     unite(pathway, ID, Description, remove = FALSE, sep = " ")
   
@@ -629,7 +636,9 @@ perform_kegg_analysis <- function(de_df, label) {
   ))
 }
 
-# Prepare DE data for KEGG analysis - SIMPLIFIED AND CORRECTED -----------
+
+# Prepare DE data for KEGG analysis ---------------------------------------
+
 
 # Create DE dataframes with proper fold change data preservation
 de_list <- list(
@@ -639,11 +648,39 @@ de_list <- list(
   "Female_Unique" = female_de %>% 
     filter(qry_transcript_id %in% female_only_euler),
   
-  "Shared_No_Interaction" = male_de %>% 
-    filter(qry_transcript_id %in% male_female_only_euler),
+  "Shared_No_Interaction" = {
+    # For shared genes, average male and female fold changes
+    male_shared <- male_de %>% 
+      filter(qry_transcript_id %in% male_female_only_euler) %>%
+      dplyr::select(qry_transcript_id, male_log2FoldChange = log2FoldChange)
+    
+    female_shared <- female_de %>% 
+      filter(qry_transcript_id %in% male_female_only_euler) %>%
+      dplyr::select(qry_transcript_id, female_log2FoldChange = log2FoldChange)
+    
+    # Combine and average fold changes
+    male_shared %>%
+      left_join(female_shared, by = "qry_transcript_id") %>%
+      mutate(log2FoldChange = (male_log2FoldChange + female_log2FoldChange) / 2) %>%
+      dplyr::select(qry_transcript_id, log2FoldChange)
+  },
   
-  "Shared_With_Interaction" = male_de %>% 
-    filter(qry_transcript_id %in% shared_with_interaction_euler)
+  "Shared_With_Interaction" = {
+    # For shared genes with interaction, average male and female fold changes
+    male_shared_int <- male_de %>% 
+      filter(qry_transcript_id %in% shared_with_interaction_euler) %>%
+      dplyr::select(qry_transcript_id, male_log2FoldChange = log2FoldChange)
+    
+    female_shared_int <- female_de %>% 
+      filter(qry_transcript_id %in% shared_with_interaction_euler) %>%
+      dplyr::select(qry_transcript_id, female_log2FoldChange = log2FoldChange)
+    
+    # Combine and average fold changes
+    male_shared_int %>%
+      left_join(female_shared_int, by = "qry_transcript_id") %>%
+      mutate(log2FoldChange = (male_log2FoldChange + female_log2FoldChange) / 2) %>%
+      dplyr::select(qry_transcript_id, log2FoldChange)
+  }
 )
 
 # Run KEGG Analysis on All Comparisons ------------------------------------

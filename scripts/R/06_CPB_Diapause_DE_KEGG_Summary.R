@@ -67,11 +67,9 @@ d_vs_nd_female_kegg <- read.csv(file = "../05_KEGG_Enrichment/Lists/d_vs_nd_fema
 d_vs_nd_male_kegg <- read.csv(file = "../05_KEGG_Enrichment/Lists/d_vs_nd_male/d_vs_nd_male_enrichment_results.csv") %>%
   mutate(comparison = "Males")
 
-int_kegg <- read.csv(file = "../05_KEGG_Enrichment/Lists/int/int_enrichment_results.csv") %>%
-  mutate(comparison = "Interaction")
 
 # Combine all datasets
-combined_kegg <- bind_rows(d_vs_nd_female_kegg, d_vs_nd_male_kegg, int_kegg)
+combined_kegg <- bind_rows(d_vs_nd_female_kegg, d_vs_nd_male_kegg)
 
 # Get all unique pathways across all comparisons
 all_pathways <- unique(combined_kegg$Description)
@@ -79,7 +77,7 @@ all_pathways <- unique(combined_kegg$Description)
 # Create a complete grid of all pathways × all comparisons
 complete_grid <- expand_grid(
   Description = all_pathways,
-  comparison = c("Females", "Males", "Interaction")
+  comparison = c("Females", "Males")
 )
 
 # Left join to fill in missing combinations with NA
@@ -88,7 +86,7 @@ combined_kegg_complete <- left_join(complete_grid, combined_kegg,
 
 # Set factor levels for consistent ordering
 combined_kegg_complete$comparison <- factor(combined_kegg_complete$comparison, 
-                                            levels = c("Females", "Males", "Interaction"))
+                                            levels = c("Females", "Males"))
 
 # Create combined plot
 (combined_plot <- ggplot(combined_kegg_complete, aes(x = comparison, y = Description)) +

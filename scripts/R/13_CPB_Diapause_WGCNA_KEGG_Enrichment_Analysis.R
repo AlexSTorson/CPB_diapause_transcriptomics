@@ -61,6 +61,34 @@ cluster_colors <- c("#E69F00", "#00AFBB", "#009E73", "#0072B2")
 # Significance colors for MA plots
 sig_colors <- c("TRUE" = "#D55E00", "FALSE" = "black")
 
+# Standardized theme
+theme_cpb <- theme_bw() +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = 'plain', size = 12),
+    axis.text = element_text(face = "plain", size = 10),
+    axis.title = element_text(face = "plain", size = 10),
+    axis.title.x = element_text(margin = margin(t = 8, r = 20, b = 0, l = 0)),
+    axis.title.y = element_text(margin = margin(t = 0, r = 6, b = 0, l = 0)),
+    panel.border = element_rect(fill = NA, colour = "black", linewidth = 0.5),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.position = "bottom"
+  )
+
+# Standardized theme
+theme_cpb <- theme_bw() +
+  theme(
+    plot.title = element_text(hjust = 0.5, face = 'plain', size = 12),
+    axis.text = element_text(face = "plain", size = 10),
+    axis.title = element_text(face = "plain", size = 10),
+    axis.title.x = element_text(margin = margin(t = 8, r = 20, b = 0, l = 0)),
+    axis.title.y = element_text(margin = margin(t = 0, r = 6, b = 0, l = 0)),
+    panel.border = element_rect(fill = NA, colour = "black", linewidth = 0.5),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    legend.position = "bottom"
+  )
+
 # Data Loading and Preparation --------------------------------------------
 
 # Load WGCNA module assignments from script 01
@@ -100,6 +128,12 @@ kegg.gs_names <- names(kegg.gs)
 kegg.gs_names <- as.data.frame(gsub(" .*$", "", kegg.gs_names))
 names(kegg.gs_names) <- "ID"
 
+# Define universe for enrichments
+universe_kegg <- kegg_genes %>%
+  pull(kegg_id) %>%
+  unique() %>%
+  as.character()
+
 # Filter module assignments to genes with KEGG annotations
 module_assignments_kegg <- module_assignments %>%
   filter(Transcript_ID %in% kegg_genes$qry_transcript_id)
@@ -125,9 +159,10 @@ perform_module_kegg_enrichment <- function(module_id, module_genes) {
   # Over-representation analysis using Fisher's exact test
   enrich_result <- enrichKEGG(
     gene = module_kegg_ids,
+    universe = universe_kegg,
     organism = "ko",
     keyType = 'kegg',
-    pvalueCutoff = 0.01
+    pvalueCutoff = 0.05
   )
   
   # Convert to data frame and process results
@@ -136,14 +171,14 @@ perform_module_kegg_enrichment <- function(module_id, module_genes) {
   }
   
   enrich_df <- data.frame(enrich_result@result) %>%
-    filter(qvalue <= 0.01) %>%
+    filter(p.adjust <= 0.05) %>%
     subset(ID %in% kegg.gs_names$ID) %>%  # Remove disease pathways
     mutate(
       module_id = module_id,
       bg_ratio_numeric = as.numeric(sub("/.*", "", BgRatio)) / as.numeric(sub(".*/", "", BgRatio)),
       enrichment_ratio = (Count / length(module_kegg_ids)) / bg_ratio_numeric
     ) %>%
-    arrange(pvalue)
+    arrange(p.adjust)  # Sort by adjusted p-value
   
   return(enrich_df)
 }
@@ -283,7 +318,7 @@ for (i in 1:nrow(modules_to_analyze)) {
         )
       }) %>%
         # Add transcript IDs by joining with KEGG annotations
-        left_join(kegg_genes, by = "kegg_id") %>%
+        left_join(kegg_genes, by = "kegg_id", relationship = "many-to-many") %>%
         dplyr::select(pathway_id, pathway_name, qry_transcript_id, kegg_id) %>%
         filter(!is.na(qry_transcript_id)) %>%
         arrange(pathway_id, qry_transcript_id)
@@ -526,8 +561,8 @@ if (length(all_kegg_enrichments) > 0) {
       
       if (nrow(module_kegg) == 0) next
       
-      # Create fold change vector (dummy values for visualization)
-      module_kegg_fc <- setNames(rep(1, nrow(module_kegg)), module_kegg$kegg_id)
+      # Create binary presence vector for module genes
+      module_kegg_presence <- setNames(rep(1, nrow(module_kegg)), module_kegg$kegg_id)
       
       # Create pathway visualization
       setwd(viz_dir)
@@ -536,14 +571,14 @@ if (length(all_kegg_enrichments) > 0) {
       out_suffix <- paste0(module_id, "_", pathway_clean_name)
       
       pathview(
-        gene.data = module_kegg_fc,
+        gene.data = module_kegg_presence,
         pathway.id = pathway_id,
         species = "ko",
         out.suffix = out_suffix,
         kegg.native = TRUE,
-        limit = list(gene = c(-2, 2)),
-        low = "blue",
-        mid = "grey90",
+        discrete = list(gene = TRUE),
+        limit = list(gene = 1),
+        low = "white",
         high = "red"
       )
       

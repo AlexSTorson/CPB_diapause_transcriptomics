@@ -94,14 +94,15 @@ cytochrome P450,cytochrome P450 9e2-like,TU12888,XM_023158796.1,Shared,3.5.1.4
 cytochrome P450,cytochrome P450 4d2-like,TU15462,XM_023160082.1,Shared,3.5.1.4
 cytochrome P450,"cytochrome P450 9e2-like, transcript variant X2",TU26702,XM_023165395.1,Shared,3.5.1.4
 chorion class B protein L12-like,chorion class B protein L12-like,TU12200,XM_023158437.1,Female Unique,3.5.2.1
+insulin receptor,insulin-like receptor,TU6022,XM_023174351.1,Female-specific,3.5.2.1
+insulin receptor,insulin-like receptor,TU44762,XM_023172914.1,Female-specific,3.5.2.1
+MAP kinase-activating death domain protein,MAP kinase-activating death domain protein,TU14148,XM_023159467.1,Female-specific,3.5.2.1
+RAC serine/threonine-protein kinase,"RAC serine/threonine-protein kinase, transcript variant X3",TU19270,XM_023161889.1,Female Unique,3.5.2.1
 hormone-sensitive lipase,hormone-sensitive lipase,TU19213,XM_023161842.1,Female Unique,3.5.2.1
 fatty acid synthase,fatty acid synthase-like,TU8478,XM_023156620.1,Female Unique,3.5.2.1
 fatty acid synthase,fatty acid synthase-like,TU16825,XM_023160698.1,Female Unique,3.5.2.1
 fatty acid synthase,fatty acid synthase-like,TU11125,XM_023157858.1,Female Unique,3.5.2.1
-glycogen synthase,glycogen [starch] synthase,TU14080,XM_023159434.1,Female Unique,3.5.2.1
 acetyl-CoA carboxylase,acetyl-CoA carboxylase,TU15929,XM_023160286.1,Female Unique,3.5.2.1
-RAC serine/threonine-protein kinase,"RAC serine/threonine-protein kinase, transcript variant X3",TU19270,XM_023161889.1,Female Unique,3.5.2.1
-MAP kinase-interacting serine/threonine-protein kinase 1 ,"MAP kinase-interacting serine/threonine-protein kinase 1, transcript variant X1",TU23886,XM_023164095.1,Female Unique,3.5.2.1
 JH esterase ,juvenile hormone esterase-like,TU22523,XM_023163398.1,Female Unique,3.5.2.1
 JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU43890,XM_023172590.1,Female Unique,3.5.2.1
 JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU18497,XM_023161501.1,Female Unique,3.5.2.1
@@ -110,6 +111,21 @@ JH acid O-methyltransferase,"juvenile hormone acid O-methyltransferase-like, tra
 JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU26718,XM_023165406.1,Female Unique,3.5.2.1
 JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU26719,XM_023165407.1,Female Unique,3.5.2.1
 JH acid O-methyltransferase,juvenile hormone acid O-methyltransferase-like,TU34251,XM_023168689.1,Female Unique,3.5.2.1
+survival of motor neuron-related-splicing factor 30,survival of motor neuron-related-splicing factor 30,TU35561,XM_023169213.1,Female-specific,3.5.2.2
+splicing factor 3A subunit 1,"splicing factor 3A subunit 1, transcript variant X2",TU25481,XM_023164827.1,Female-specific,3.5.2.2
+poly(U)-binding-splicing factor half pint,"poly(U)-binding-splicing factor half pint, transcript variant X3",TU23444,XM_023163856.1,Female-specific,3.5.2.2
+poly(U)-binding-splicing factor half pint,"poly(U)-binding-splicing factor half pint, transcript variant X1",TU23443,XM_023163854.1,Female-specific,3.5.2.2
+poly(U)-binding-splicing factor half pint,"poly(U)-binding-splicing factor half pint, transcript variant X2",TU23442,XM_023163855.1,Female-specific,3.5.2.2
+pre-mRNA-processing factor 39-like,"pre-mRNA-processing factor 39-like, transcript variant X1",TU23629,XM_023163952.1,Female-specific,3.5.2.2
+pre-mRNA-processing factor 40,"pre-mRNA-processing factor 40 homolog A, transcript variant X1",TU21467,XM_023162918.1,Female-specific,3.5.2.2
+endoribonuclease Dicer,endoribonuclease Dicer-like,TU2469,XM_023165026.1,Female-specific,3.5.2.2
+endoribonuclease Dicer,endoribonuclease Dicer-like,TU5270,XM_023174012.1,Female-specific,3.5.2.2
+dimethyladenosine transferase,probable dimethyladenosine transferase,TU41113,XM_023171479.1,Female-specific,3.5.2.2
+E3 ubiquitin-protein ligase FANCL,"E3 ubiquitin-protein ligase FANCL-like, transcript variant X3",TU14074,XM_023159426.1,Female-specific,3.5.2.2
+E3 ubiquitin-protein ligase FANCL,"E3 ubiquitin-protein ligase FANCL-like, transcript variant X4",TU14065,XM_023159427.1,Female-specific,3.5.2.2
+DNA repair protein XRCC1,"DNA repair protein XRCC1, transcript variant X1",TU31610,XM_023167539.1,Female-specific,3.5.2.2
+DNA helicase Ino80,putative DNA helicase Ino80,TU42230,XM_023171917.1,Female-specific,3.5.2.2
+Fanconi anemia protein,Fanconi anemia group D2 protein,TU27764,XM_023165873.1,Female-specific,3.5.2.2
 hepatocyte growth factor-regulated tyrosine kinase substrate,hepatocyte growth factor-regulated tyrosine kinase substrate,TU11417,XM_023158021.1,Female Unique,3.5.2.2
 vacuolar protein sorting-associated protein 29,"vacuolar protein sorting-associated protein 29, transcript variant X2",TU21680,XM_023163020.1,Female Unique,3.5.2.2
 multivesicular body subunit 12B,"multivesicular body subunit 12B, transcript variant X2",TU1766,XM_023161042.1,Female Unique,3.5.2.2
@@ -138,9 +154,9 @@ eIF-3 subunit J-like,eukaryotic translation initiation factor 3 subunit J-like,T
 39S ribosomal protein L47 ,"39S ribosomal protein L47,  mitochondrial",TU41479,XM_023171622.1,Male_Unique,3.5.3.1
 cytoplasmic 30S ribosomal protein S11 ,30S ribosomal protein S11,TU842,XM_023156548.1,Male_Unique,3.5.3.1
 ribosomal protein S6 kinase alpha-5 ,ribosomal protein S6 kinase alpha-5-like,TU27807,XM_023165888.1,Male_Unique,3.5.3.1
+elongation of very long chain fatty acids protein 4,"elongation of very long chain fatty acids protein 4-like, transcript variant X1",TU26499,XM_023165310.1,Male_Unique,3.5.3.1
 elongation of very long chain fatty acids protein 6,elongation of very long chain fatty acids protein 6,TU10592,XM_023157634.1,Male_Unique,3.5.3.1
 acyl-CoA Delta(11) desaturase,acyl-CoA Delta(11) desaturase-like,TU21576,XM_023162963.1,Male_Unique,3.5.3.1
-elongation of very long chain fatty acids protein 4,"elongation of very long chain fatty acids protein 4-like, transcript variant X1",TU26499,XM_023165310.1,Male_Unique,3.5.3.1
 acetyl-CoA carboxylase,acetyl-CoA carboxylase,TU15923,XM_023160286.1,Male_Unique,3.5.3.1
 phospholipid-transporting ATPase IA ,"probable phospholipid-transporting ATPase IA, transcript variant X6",TU30233,XM_023166978.1,Male_Unique,3.5.3.1
 phospholipid scramblase 2 ,"phospholipid scramblase 2-like, transcript variant X1",TU16662,XM_023160608.1,Male_Unique,3.5.3.1

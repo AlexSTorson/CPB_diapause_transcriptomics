@@ -89,6 +89,12 @@ kegg.gs_names <- names(kegg.gs)
 kegg.gs_names <- as.data.frame(gsub(" .*$", "", kegg.gs_names))
 names(kegg.gs_names) <- "ID"
 
+# Define universe for enrichments
+universe_kegg <- kegg_genes %>%
+  pull(kegg_id) %>%
+  unique() %>%
+  as.character()
+
 # Load Differential Expression Results ------------------------------------
 
 # Diapause effects in females
@@ -165,10 +171,10 @@ perform_kegg_analysis <- function(de_df, label) {
   de_pathway_ids <- gsub(" .*$", "", de_pathway_names_full)
   de_pathway_names <- gsub("^.*? ", "", de_pathway_names_full)
   
-  # Calculate fold change limit for visualization
+  # Calculate fold change limit for visualization (improved)
   all_fold_changes <- de_kegg$log2FoldChange
-  max_fc <- quantile(abs(all_fold_changes), 0.95, na.rm = TRUE)
-  fc_limit <- ceiling(max_fc)
+  max_fc <- quantile(abs(all_fold_changes), 0.90, na.rm = TRUE)
+  fc_limit <- min(ceiling(max_fc), 3)  # Cap at log2FC of 3 (8-fold change)
   
   # Create absolute paths for output directories
   plot_dir_ko <- file.path(original_wd, "Mapping_Plots_KO_IDs", label)
@@ -250,14 +256,15 @@ perform_kegg_analysis <- function(de_df, label) {
   # Perform enrichment analysis
   enrich <- enrichKEGG(
     gene = de_kegg_chr,
+    universe = universe_kegg,
     organism = "ko",
     keyType = 'kegg',
-    pvalueCutoff = 0.01
+    pvalueCutoff = 0.05
   )
   
   # Extract and filter enrichment results
   enrich_df <- data.frame(enrich@result) %>%
-    filter(qvalue <= 0.01) %>%
+    filter(p.adjust <= 0.05) %>%
     subset(ID %in% kegg.gs_names$ID) %>%  # Remove disease pathways
     unite(pathway, ID, Description, remove = FALSE, sep = " ")
   
@@ -285,7 +292,7 @@ perform_kegg_analysis <- function(de_df, label) {
       )
     }) %>%
       # Add transcript IDs by joining with KEGG annotations
-      left_join(kegg_genes, by = "kegg_id") %>%
+      left_join(kegg_genes, by = "kegg_id", relationship = "many-to-many") %>%
       dplyr::select(pathway_id, pathway_name, qry_transcript_id, kegg_id) %>%
       filter(!is.na(qry_transcript_id)) %>%
       arrange(pathway_id, qry_transcript_id)
